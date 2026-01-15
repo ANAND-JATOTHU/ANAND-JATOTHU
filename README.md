@@ -1,5 +1,8 @@
 # 💫 About Me:
-Here is a beautiful, emoji-rich version of your bio, formatted for your GitHub `README.md` or portfolio.<br><br>---<br><br># 💫 About Me<br><br>### **Hi there, I'm Jatothu Anand!** 👋<br><br>I am a motivated **B.Tech Information Technology student** at **Teegala Krishna Reddy Engineering College**. I have a strong passion for building software that solves real-world problems, with a focus on **Python**, **Web Development**, and **Artificial Intelligence**.<br><br>👨‍💻 I am currently seeking an **internship** to apply my skills in a professional environment and contribute to meaningful projects.<br><br>---<br><br>### 🌱 **What I'm Up To**<br><br>* 🛠️ **Working on:** An **Offline Smart AI Assistant** and an **AR Drawing App**.<br>* 🎓 **Learning:** **Advanced Data Structures** and **Game Development (Unity)**.<br>* 🤝 **Collaborating:** I’m looking to contribute to **Open Source Python & Web Projects**.<br><br>---<br><br>### 🚀 **Top Projects**<br><br>🤖 **Offline Smart AI Assistant**<br><br>> A Modern, ChatGPT-Style Voice Assistant with GPU-accelerated STT, Local LLM, and Advanced PyQt6 GUI — **Completely Offline!**<br><br>🏍️ **Bikers Portal**<br><br>> A full-stack motorcycle marketplace using **Node.js**, **Express**, and **MongoDB**.<br><br>🎨 **AI Image to Sketch**<br><br>> A desktop tool for real-time image conversion using **Python** and **OpenCV**.<br><br>🖼️ **Background Remover**<br><br>> A precision image processing tool with a custom **Tkinter UI**.<br><br>---<br><br>### 📫 **Connect with Me**<br><br>📧 **Email:** [anandhyd2006@gmail.com](mailto:anandhyd2006@gmail.com)
+💫 About Me<br>Hi there, I'm Jatothu Anand!** 👋<br><br>🎓 I am a motivated **B.Tech Information Technology student** at **Teegala Krishna Reddy Engineering College**. <br>🌱 I have a strong passion for building software that solves real-world problems, with a focus on **Python**, **Web Development**, and **Artificial Intelligence**.<br>👨‍💻 I am currently seeking an **internship** to apply my skills in a professional environment and contribute to meaningful projects.<br><br>🌱 **What I'm Up To**<br><br>🛠️ **Working on:** An **Offline Smart AI Assistant** and an **AR Drawing App**.<br>🎓 **Learning:** **Advanced Data Structures** and **Game Development (Unity)**.<br>🤝 **Collaborating:** I’m looking to contribute to **Open Source Python & Web Projects**.<br><br>🚀 **Top Projects**<br><br>🤖 **Offline Smart AI Assistant:**<br>> A Modern, ChatGPT-Style Voice Assistant with GPU-accelerated STT, Local LLM, and Advanced PyQt6 GUI — **Completely Offline!**<br>🏍️ **Bikers Portal:**<br>> A full-stack motorcycle marketplace using **Node.js**, **Express**, and **MongoDB**.<br>🎨 **AI Image to Sketch:**<br>> A desktop tool for real-time image conversion using **Python** and **OpenCV**.<br>🖼️ **Background Remover:**<br>> A precision image processing tool with a custom **Tkinter UI**.
+
+## 🌐 Socials:
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/www.linkedin.com/in/anandjatothu) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:anandhyd2006@gmail.com) 
 
 <!-- Snake Game Repo View -->
 
@@ -20,9 +23,6 @@ Here is a beautiful, emoji-rich version of your bio, formatted for your GitHub `
 
 ### 🔝 Top Contributed Repo
 ![](https://github-contributor-stats.vercel.app/api?username=ANAND-JATOTHU&limit=5&theme=dark&combine_all_yearly_contributions=true)
-
-## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/www.linkedin.com/in/anandjatothu) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:anandhyd2006@gmail.com) 
 
 ---
 [![](https://visitcount.itsvg.in/api?id=ANAND-JATOTHU&icon=0&color=0)](https://visitcount.itsvg.in)
