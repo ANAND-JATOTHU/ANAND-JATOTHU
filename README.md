@@ -1,20 +1,7 @@
 # 💫 About Me:
 💫 About Me<br>Hi there, I'm Jatothu Anand! 👋<br><br>🎓 I am a motivated **B.Tech Information Technology student** at **Teegala Krishna Reddy Engineering College**. <br>🌱 I have a strong passion for building software that solves real-world problems, with a focus on **Python**, **Web Development**, and **Artificial Intelligence**.<br>👨‍💻 I am currently seeking an **internship** to apply my skills in a professional environment and contribute to meaningful projects.<br><br>🌱 **What I'm Up To**<br><br>🛠️ **Working on:** An **Offline Smart AI Assistant** and an **AR Drawing App**.<br>🎓 **Learning:** **Advanced Data Structures** and **Game Development (Unity)**.<br>🤝 **Collaborating:** I’m looking to contribute to **Open Source Python & Web Projects**.<br><br>🚀 **Top Projects**
 
-🔗 **[StuLink](https://stu-link-web.vercel.app/):**
-> A kid-safe student social learning platform built with **Next.js** and **Supabase**.
-🔗 **[Transvara](https://transfer-app-frontend.vercel.app/):**
-> A secure and fast file transfer and sharing web application.
-🔗 **[Stadium Crowd Management](https://promptwar-715912890380.us-central1.run.app/):**
-> A scalable crowd management solution deployed seamlessly on **Google Cloud Run**.
-🤖 **Offline Smart AI Assistant:**
-> A Modern, ChatGPT-Style Voice Assistant with GPU-accelerated STT, Local LLM, and Advanced PyQt6 GUI — **Completely Offline!**
-🏍️ **Bikers Portal:**
-> A full-stack motorcycle marketplace using **Node.js**, **Express**, and **MongoDB**.
-🎨 **AI Image to Sketch:**
-> A desktop tool for real-time image conversion using **Python** and **OpenCV**.
-🖼️ **Background Remover:**
-> A precision image processing tool with a custom **Tkinter UI**.
+🔗 **[StuLink](https://stu-link-web.vercel.app/):**<br>> A kid-safe student social learning platform built with **Next.js** and **Supabase**.<br>🔗 **[Transvara](https://transfer-app-frontend.vercel.app/):**<br>> A secure and fast file transfer and sharing web application.<br>🔗 **[Stadium Crowd Management](https://promptwar-715912890380.us-central1.run.app/):**<br>> A scalable crowd management solution deployed seamlessly on **Google Cloud Run**.<br>🤖 **Offline Smart AI Assistant:**<br>> A Modern, ChatGPT-Style Voice Assistant with GPU-accelerated STT, Local LLM, and Advanced PyQt6 GUI — **Completely Offline!**<br>🏍️ **Bikers Portal:**<br>> A full-stack motorcycle marketplace using **Node.js**, **Express**, and **MongoDB**.<br>🎨 **AI Image to Sketch:**<br>> A desktop tool for real-time image conversion using **Python** and **OpenCV**.<br>🖼️ **Background Remover:**<br>> A precision image processing tool with a custom **Tkinter UI**.
 
 ## 🌐 Socials:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/anandjatothu) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:anandhyd2006@gmail.com) 
