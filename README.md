@@ -20,6 +20,8 @@
 ![](https://nirzak-streak-stats.vercel.app/?user=ANAND-JATOTHU&theme=dark&hide_border=false)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=ANAND-JATOTHU&theme=dark&hide_border=false&include_all_commits=true&count_private=false&layout=compact)
 
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=ANAND-JATOTHU&show_icons=true&count_private=true&include_all_commits=true)
+
 ## 🏆 GitHub Trophies
 ![](https://github-profile-trophy.vercel.app/?username=ANAND-JATOTHU&theme=radical&no-frame=false&no-bg=false&margin-w=4)
 
