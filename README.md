@@ -6,6 +6,7 @@
 ## 🌐 Socials:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/anandjatothu) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:anandhyd2006@gmail.com) 
 
+
 <!-- Snake Game Repo View -->
 
 <div align="center">
