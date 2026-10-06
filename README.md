@@ -26,7 +26,7 @@
 ## 🏆 GitHub Trophies
 ![](https://github-profile-trophy.vercel.app/?username=ANAND-JATOTHU&theme=radical&no-frame=false&no-bg=false&margin-w=4)
 
-
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=ANAND-JATOTHU&count_private=true)
 
 ### 🔝 Top Contributed Repo
 ![](https://github-contributor-stats.vercel.app/api?username=ANAND-JATOTHU&limit=5&theme=dark&combine_all_yearly_contributions=true)
