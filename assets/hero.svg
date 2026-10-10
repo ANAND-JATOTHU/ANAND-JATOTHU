@@ -4,8 +4,6 @@
       @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&amp;family=JetBrains+Mono:wght@400;700&amp;display=swap');
       * { font-family: 'Inter', system-ui, sans-serif; }
       @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
-      /* Fallback for previews */
-      svg g[opacity="0"], svg text[opacity="0"], svg image[opacity="0"] { opacity: 1 !important; }
 </style>
     <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#247bff" stop-opacity="0.18"/>

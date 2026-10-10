@@ -48,8 +48,6 @@ COMMON_CSS = """
       @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&amp;family=JetBrains+Mono:wght@400;700&amp;display=swap');
       * { font-family: 'Inter', system-ui, sans-serif; }
       @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
-      /* Fallback for previews */
-      svg g[opacity="0"], svg text[opacity="0"], svg image[opacity="0"] { opacity: 1 !important; }
 """
 
 # Common background elements
@@ -393,7 +391,7 @@ ID_DASH_SVG = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 420" 
       <stop offset="100%" stop-color="white" stop-opacity="0"/>
     </linearGradient>
     <clipPath id="idportrait">
-      <rect x="0" y="0" width="110" height="110" rx="10"/>
+      <rect x="655" y="130" width="130" height="130" rx="10"/>
     </clipPath>
     <filter id="dropshadow">
       <feDropShadow dx="0" dy="8" stdDeviation="16" flood-color="{BLUE}" flood-opacity="0.35"/>

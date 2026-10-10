@@ -4,8 +4,6 @@
       @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&amp;family=JetBrains+Mono:wght@400;700&amp;display=swap');
       * { font-family: 'Inter', system-ui, sans-serif; }
       @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
-      /* Fallback for previews */
-      svg g[opacity="0"], svg text[opacity="0"], svg image[opacity="0"] { opacity: 1 !important; }
 </style>
     <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#247bff" stop-opacity="0.12"/>
@@ -30,7 +28,7 @@
       <stop offset="100%" stop-color="white" stop-opacity="0"/>
     </linearGradient>
     <clipPath id="idportrait">
-      <rect x="0" y="0" width="110" height="110" rx="10"/>
+      <rect x="655" y="130" width="130" height="130" rx="10"/>
     </clipPath>
     <filter id="dropshadow">
       <feDropShadow dx="0" dy="8" stdDeviation="16" flood-color="#247bff" flood-opacity="0.35"/>
