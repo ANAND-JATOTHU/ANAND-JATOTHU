@@ -10,13 +10,25 @@ import zipfile
 REPO = os.path.dirname(os.path.abspath(__file__))
 ASSETS = os.path.join(REPO, "assets")
 
-# ── Load resized base64 images ───────────────────────────────────────────────
-with open(os.path.join(ASSETS, "_resized_id_b64.txt"), "r") as f:
-    ID_B64 = f.read().strip()
-with open(os.path.join(ASSETS, "_resized_rp_b64.txt"), "r") as f:
-    RP_B64 = f.read().strip()
-with open(os.path.join(ASSETS, "_resized_bg_b64.txt"), "r") as f:
-    BG_B64 = f.read().strip()
+import base64
+from PIL import Image
+from io import BytesIO
+
+def to_b64(path, max_size, quality=80):
+    try:
+        img = Image.open(path)
+        img.thumbnail(max_size)
+        buffer = BytesIO()
+        img.save(buffer, format="JPEG" if path.endswith(".jpg") else "PNG", optimize=True, quality=quality)
+        return base64.b64encode(buffer.getvalue()).decode("utf-8")
+    except Exception as e:
+        print(f"Failed to process {path}: {e}")
+        # Return a 1x1 transparent png
+        return "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+
+ID_B64 = to_b64(os.path.join(ASSETS, "id.png"), (400, 400))
+RP_B64 = to_b64(os.path.join(ASSETS, "right_pointing.png"), (400, 400))
+BG_B64 = to_b64(os.path.join(ASSETS, "bg.jpg"), (800, 800))
 
 ID_URI  = f"data:image/png;base64,{ID_B64}"
 RP_URI  = f"data:image/png;base64,{RP_B64}"
@@ -640,10 +652,6 @@ with open(readme_path, "w", encoding="utf-8") as f:
     f.write(README)
 print("✔ Written: README.md")
 
-# Clean temp files
-for tmp in ["assets/_resized_id_b64.txt", "assets/_resized_rp_b64.txt", "assets/_resized_bg_b64.txt"]:
-    p = os.path.join(REPO, tmp)
-    if os.path.exists(p):
-        os.remove(p)
+# Removed temp file cleanup because we no longer use them
 
 print("DONE ✅")
