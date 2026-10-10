@@ -50,35 +50,35 @@
   <text x="36" y="110" font-size="11.5" fill="#8892a4">Full-Stack Development</text>
   <rect x="36" y="114" width="320" height="7" rx="3.5" fill="#0d1425"/>
   <rect x="36" y="114" width="0" height="7" rx="3.5" fill="url(#barBlue)">
-    <animate attributeName="width" values="0;294" dur="1s" begin="0.3s" fill="both"/>
+    <animate attributeName="width" values="0;294" dur="1s" begin="0.3s" fill="freeze"/>
   </rect>
   <text x="362" y="121" font-size="10" fill="#247bff" text-anchor="end">92%</text>
 
   <text x="36" y="140" font-size="11.5" fill="#8892a4">AI / ML Integration</text>
   <rect x="36" y="144" width="320" height="7" rx="3.5" fill="#0d1425"/>
   <rect x="36" y="144" width="0" height="7" rx="3.5" fill="url(#barRed)">
-    <animate attributeName="width" values="0;256" dur="1s" begin="0.5s" fill="both"/>
+    <animate attributeName="width" values="0;256" dur="1s" begin="0.5s" fill="freeze"/>
   </rect>
   <text x="362" y="151" font-size="10" fill="#ff354f" text-anchor="end">80%</text>
 
   <text x="36" y="170" font-size="11.5" fill="#8892a4">Cloud &amp; Backend Systems</text>
   <rect x="36" y="174" width="320" height="7" rx="3.5" fill="#0d1425"/>
   <rect x="36" y="174" width="0" height="7" rx="3.5" fill="url(#barPurple)">
-    <animate attributeName="width" values="0;272" dur="1s" begin="0.7s" fill="both"/>
+    <animate attributeName="width" values="0;272" dur="1s" begin="0.7s" fill="freeze"/>
   </rect>
   <text x="362" y="181" font-size="10" fill="#a78bfa" text-anchor="end">85%</text>
 
   <text x="36" y="200" font-size="11.5" fill="#8892a4">Problem Solving &amp; DSA</text>
   <rect x="36" y="204" width="320" height="7" rx="3.5" fill="#0d1425"/>
   <rect x="36" y="204" width="0" height="7" rx="3.5" fill="url(#barGreen)">
-    <animate attributeName="width" values="0;281" dur="1s" begin="0.9s" fill="both"/>
+    <animate attributeName="width" values="0;281" dur="1s" begin="0.9s" fill="freeze"/>
   </rect>
   <text x="362" y="211" font-size="10" fill="#34d399" text-anchor="end">88%</text>
 
   <text x="36" y="230" font-size="11.5" fill="#8892a4">UI/UX Design</text>
   <rect x="36" y="234" width="320" height="7" rx="3.5" fill="#0d1425"/>
   <rect x="36" y="234" width="0" height="7" rx="3.5" fill="url(#barBlue)">
-    <animate attributeName="width" values="0;240" dur="1s" begin="1.1s" fill="both"/>
+    <animate attributeName="width" values="0;240" dur="1s" begin="1.1s" fill="freeze"/>
   </rect>
   <text x="362" y="241" font-size="10" fill="#247bff" text-anchor="end">75%</text>
 
@@ -86,7 +86,7 @@
 
   <!-- Slide 1: Learning -->
   <g opacity="1">
-    <animate attributeName="opacity" values="1;1;0;0;0;0;0;0;1" dur="12s" begin="0s" fill="both" repeatCount="indefinite" keyTimes="0;0.28;0.33;0.33;0.66;0.66;0.99;1;1"/>
+    <animate attributeName="opacity" values="1;1;0;0;0;0;0;0;1" dur="12s" begin="0s" fill="freeze" repeatCount="indefinite" keyTimes="0;0.28;0.33;0.33;0.66;0.66;0.99;1;1"/>
     <text x="450" y="84" font-size="19" font-weight="700" fill="#e8edf5">Currently Learning 📚</text>
     <text x="450" y="114" font-size="13" fill="#8892a4">▸ Advanced Data Structures &amp; Algorithms</text>
     <text x="450" y="136" font-size="13" fill="#8892a4">▸ Deep Learning &amp; Neural Networks</text>
@@ -96,7 +96,7 @@
   </g>
   <!-- Slide 2: Interests -->
   <g opacity="0">
-    <animate attributeName="opacity" values="0;0;1;1;0;0;0;0;0" dur="12s" begin="0s" fill="both" repeatCount="indefinite" keyTimes="0;0.32;0.33;0.61;0.66;0.66;0.99;1;1"/>
+    <animate attributeName="opacity" values="0;0;1;1;0;0;0;0;0" dur="12s" begin="0s" fill="freeze" repeatCount="indefinite" keyTimes="0;0.32;0.33;0.61;0.66;0.66;0.99;1;1"/>
     <text x="450" y="84" font-size="19" font-weight="700" fill="#e8edf5">Interests 🎯</text>
     <text x="450" y="114" font-size="13" fill="#8892a4">▸ Problem Solving (LeetCode, CP)</text>
     <text x="450" y="136" font-size="13" fill="#8892a4">▸ Open-Source Development</text>
@@ -106,7 +106,7 @@
   </g>
   <!-- Slide 3: Goals -->
   <g opacity="0">
-    <animate attributeName="opacity" values="0;0;0;0;0;1;1;0;0" dur="12s" begin="0s" fill="both" repeatCount="indefinite" keyTimes="0;0.32;0.33;0.61;0.65;0.66;0.94;0.99;1"/>
+    <animate attributeName="opacity" values="0;0;0;0;0;1;1;0;0" dur="12s" begin="0s" fill="freeze" repeatCount="indefinite" keyTimes="0;0.32;0.33;0.61;0.65;0.66;0.94;0.99;1"/>
     <text x="450" y="84" font-size="19" font-weight="700" fill="#e8edf5">2026 Goals 🚀</text>
     <text x="450" y="114" font-size="13" fill="#8892a4">▸ Land a software engineering internship</text>
     <text x="450" y="136" font-size="13" fill="#8892a4">▸ Ship StuLink v2.0</text>
@@ -117,22 +117,22 @@
 
   <rect x="450" y="258" width="370" height="4" rx="2" fill="#0d1425"/>
   <rect x="450" y="258" width="0" height="4" rx="2" fill="#247bff">
-    <animate attributeName="width" values="0;120;120;0;0;0;0;0;0" dur="12s" begin="0s" fill="both" repeatCount="indefinite" keyTimes="0;0.28;0.33;0.33;0.66;0.66;0.99;1;1"/>
+    <animate attributeName="width" values="0;120;120;0;0;0;0;0;0" dur="12s" begin="0s" fill="freeze" repeatCount="indefinite" keyTimes="0;0.28;0.33;0.33;0.66;0.66;0.99;1;1"/>
   </rect>
   <rect x="574" y="258" width="0" height="4" rx="2" fill="#ff354f">
-    <animate attributeName="width" values="0;0;0;120;120;0;0;0;0" dur="12s" begin="0s" fill="both" repeatCount="indefinite" keyTimes="0;0.32;0.33;0.61;0.66;0.66;0.99;1;1"/>
+    <animate attributeName="width" values="0;0;0;120;120;0;0;0;0" dur="12s" begin="0s" fill="freeze" repeatCount="indefinite" keyTimes="0;0.32;0.33;0.61;0.66;0.66;0.99;1;1"/>
   </rect>
   <rect x="698" y="258" width="0" height="4" rx="2" fill="#a78bfa">
-    <animate attributeName="width" values="0;0;0;0;0;120;120;0;0" dur="12s" begin="0s" fill="both" repeatCount="indefinite" keyTimes="0;0.32;0.65;0.66;0.65;0.66;0.94;0.99;1"/>
+    <animate attributeName="width" values="0;0;0;0;0;120;120;0;0" dur="12s" begin="0s" fill="freeze" repeatCount="indefinite" keyTimes="0;0.32;0.65;0.66;0.65;0.66;0.94;0.99;1"/>
   </rect>
 
   <circle cx="562" cy="272" r="4" fill="#247bff">
-    <animate attributeName="opacity" values="1;1;0.3;0.3;0.3;0.3;0.3;0.3;1" dur="12s" begin="0s" fill="both" repeatCount="indefinite" keyTimes="0;0.28;0.33;0.33;0.66;0.66;0.99;1;1"/>
+    <animate attributeName="opacity" values="1;1;0.3;0.3;0.3;0.3;0.3;0.3;1" dur="12s" begin="0s" fill="freeze" repeatCount="indefinite" keyTimes="0;0.28;0.33;0.33;0.66;0.66;0.99;1;1"/>
   </circle>
   <circle cx="578" cy="272" r="4" fill="#ff354f" opacity="0.3">
-    <animate attributeName="opacity" values="0.3;0.3;1;1;0.3;0.3;0.3;0.3;0.3" dur="12s" begin="0s" fill="both" repeatCount="indefinite" keyTimes="0;0.32;0.33;0.61;0.66;0.66;0.99;1;1"/>
+    <animate attributeName="opacity" values="0.3;0.3;1;1;0.3;0.3;0.3;0.3;0.3" dur="12s" begin="0s" fill="freeze" repeatCount="indefinite" keyTimes="0;0.32;0.33;0.61;0.66;0.66;0.99;1;1"/>
   </circle>
   <circle cx="594" cy="272" r="4" fill="#a78bfa" opacity="0.3">
-    <animate attributeName="opacity" values="0.3;0.3;0.3;0.3;0.3;1;1;0.3;0.3" dur="12s" begin="0s" fill="both" repeatCount="indefinite" keyTimes="0;0.32;0.65;0.66;0.65;0.66;0.94;0.99;1"/>
+    <animate attributeName="opacity" values="0.3;0.3;0.3;0.3;0.3;1;1;0.3;0.3" dur="12s" begin="0s" fill="freeze" repeatCount="indefinite" keyTimes="0;0.32;0.65;0.66;0.65;0.66;0.94;0.99;1"/>
   </circle>
 </svg>

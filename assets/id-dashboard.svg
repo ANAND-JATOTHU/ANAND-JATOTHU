@@ -77,11 +77,11 @@
 
   <!-- LANYARD CARD -->
   <g transform="translate(590,0)">
-    <animateTransform attributeName="transform" type="translate" values="590,0;590,0" dur="0.1s" begin="0s" fill="both"/>
+    <animateTransform attributeName="transform" type="translate" values="590,0;590,0" dur="0.1s" begin="0s" fill="freeze"/>
   </g>
   <g id="lanyard" transform-origin="720 10">
     <animateTransform attributeName="transform" type="translate" additive="sum"
-      values="0,-300;0,20;0,-8;0,3;0,0" dur="1.2s" begin="0s" keyTimes="0;0.55;0.75;0.88;1" fill="both"/>
+      values="0,-300;0,20;0,-8;0,3;0,0" dur="1.2s" begin="0s" keyTimes="0;0.55;0.75;0.88;1" fill="freeze"/>
     <animateTransform attributeName="transform" type="rotate" additive="sum"
       values="0 720 10;1.7 720 10;0 720 10;-1.7 720 10;0 720 10" dur="4s" begin="1.5s" repeatCount="indefinite" keyTimes="0;0.25;0.5;0.75;1"/>
 
