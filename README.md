@@ -1,7 +1,7 @@
 <!-- ANAND JATOTHU — GitHub Profile README -->
 <div align="center">
 
-![Hero](assets/hero.svg?v=1)
+![Hero](assets/hero.svg)
 
 </div>
 
@@ -9,7 +9,7 @@
 
 <div align="center">
 
-![About Life](assets/about-life.svg?v=1)
+![About Life](assets/about-life.svg)
 
 </div>
 
@@ -17,7 +17,7 @@
 
 <div align="center">
 
-![Tech Stack](assets/stack.svg?v=1)
+![Tech Stack](assets/stack.svg)
 
 </div>
 
@@ -31,7 +31,6 @@
 | **[Foodify](https://github.com/ANAND-JATOTHU)** | Dual-purpose food delivery & donation platform with map-based logistics (↓40% carbon footprint) | Django · Python · Stripe · Geoapify | — |
 | **[SRUTHI](https://github.com/ANAND-JATOTHU)** | Fully offline conversational AI assistant — Mistral-7B + Faster-Whisper + PyQt6 GPU GUI (83% task completion) | Python · Mistral LLM · CustomTkinter | — |
 | **[Transvara](https://github.com/ANAND-JATOTHU)** | Secure & fast file transfer web app | Next.js · Node.js | [▶ Demo](https://transfer-app-frontend.vercel.app/) |
-| **[Stadium Crowd Mgmt](https://github.com/ANAND-JATOTHU)** | Scalable crowd management deployed on Google Cloud Run | Python · GCP | [▶ Demo](https://promptwar-715912890380.us-central1.run.app/) |
 
 ---
 
@@ -40,16 +39,7 @@
 <div align="center">
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=ANAND-JATOTHU&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true)
-![Streak Stats](https://nirzak-streak-stats.vercel.app/?user=ANAND-JATOTHU&theme=tokyonight&hide_border=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ANAND-JATOTHU&theme=tokyonight&hide_border=true&layout=compact)
-
-</div>
-
-## 🏆 GitHub Trophies
-
-<div align="center">
-
-![Trophies](https://github-profile-trophy.vercel.app/?username=ANAND-JATOTHU&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ANAND-JATOTHU&theme=tokyonight&hide_border=true&layout=compact&count_private=true)
 
 </div>
 
@@ -57,7 +47,7 @@
 
 <div align="center">
 
-![Connect](assets/connect.svg?v=1)
+![Connect](assets/connect.svg)
 
 </div>
 
@@ -71,12 +61,12 @@
 
 <div align="center">
 
-![ID Dashboard](assets/id-dashboard.svg?v=1)
+![ID Dashboard](assets/id-dashboard.svg)
 
 </div>
 
 <div align="center">
 
-[![Visits](https://visitcount.itsvg.in/api?id=ANAND-JATOTHU&icon=0&color=6)](https://visitcount.itsvg.in)
+<img src="https://komarev.com/ghpvc/?username=ANAND-JATOTHU&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views" />
 
 </div>
