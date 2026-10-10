@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 340" width="860" height="340">
+  <defs>
+    <linearGradient id="cbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#247bff" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#ff354f" stop-opacity="0.06"/>
+    </linearGradient>
+    <linearGradient id="cborder" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#247bff"/>
+      <stop offset="100%" stop-color="#ff354f"/>
+    </linearGradient>
+    <pattern id="cdots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#247bff" fill-opacity="0.07"/>
+    </pattern>
+    <clipPath id="rpclip">
+      <rect x="0" y="0" width="320" height="340"/>
+    </clipPath>
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </defs>
+
+  <rect width="860" height="340" fill="#070b16" rx="16"/>
+  <rect width="860" height="340" fill="url(#cdots)" rx="16"/>
+  <rect width="860" height="340" fill="url(#cbg)" rx="16"/>
+  <rect x="1" y="1" width="858" height="338" rx="15" fill="none" stroke="url(#cborder)" stroke-width="1.5" opacity="0.5"/>
+
+  <!-- LEFT: pointing character -->
+  <image href="https://raw.githubusercontent.com/ANAND-JATOTHU/ANAND-JATOTHU/main/assets/right_pointing.png" x="-20" y="20" width="360" height="310" clip-path="url(#rpclip)" preserveAspectRatio="xMidYMid meet" opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.7s" begin="0.3s" fill="both"/>
+    <animate attributeName="x" values="-60;-20" dur="0.7s" begin="0.3s" fill="both"/>
+  </image>
+
+  <!-- nudge arrow -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.5s" begin="1s" fill="both"/>
+    <text font-size="28" fill="#247bff">
+      <animate attributeName="x" values="300;316;300" dur="1.2s" begin="1s" repeatCount="indefinite"/>
+      <tspan x="300" y="176">→</tspan>
+    </text>
+  </g>
+
+  <!-- RIGHT: social cards -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.6s" begin="0.8s" fill="both"/>
+
+    <!-- title -->
+    <text x="360" y="48" font-size="11" font-family="'JetBrains Mono',monospace" fill="#247bff" letter-spacing="3">LET'S CONNECT</text>
+    <rect x="360" y="54" width="60" height="2" fill="#247bff" rx="1"/>
+
+    <!-- GitHub -->
+    <rect x="360" y="68" width="460" height="44" rx="10" fill="#0d1425" stroke="#1a2540" stroke-width="1"/>
+    <text x="380" y="96" font-size="16" fill="#e8edf5">⚫</text>
+    <text x="406" y="90" font-size="13" font-weight="700" fill="#e8edf5">GitHub</text>
+    <text x="406" y="105" font-size="11.5" fill="#8892a4">github.com/ANAND-JATOTHU</text>
+    <text x="800" y="97" font-size="13" fill="#247bff" text-anchor="end">→</text>
+
+    <!-- LinkedIn -->
+    <rect x="360" y="122" width="460" height="44" rx="10" fill="#0d1425" stroke="#1a2540" stroke-width="1"/>
+    <text x="380" y="150" font-size="16" fill="#0077b5">in</text>
+    <text x="406" y="144" font-size="13" font-weight="700" fill="#e8edf5">LinkedIn</text>
+    <text x="406" y="159" font-size="11.5" fill="#8892a4">linkedin.com/in/anandjatothu</text>
+    <text x="800" y="151" font-size="13" fill="#247bff" text-anchor="end">→</text>
+
+    <!-- Portfolio -->
+    <rect x="360" y="176" width="460" height="44" rx="10" fill="#0d1425" stroke="#1a2540" stroke-width="1"/>
+    <text x="380" y="204" font-size="16" fill="#247bff">🌐</text>
+    <text x="406" y="198" font-size="13" font-weight="700" fill="#e8edf5">Portfolio</text>
+    <text x="406" y="213" font-size="11.5" fill="#8892a4">anandjatothu.me</text>
+    <text x="800" y="205" font-size="13" fill="#247bff" text-anchor="end">→</text>
+
+    <!-- Email -->
+    <rect x="360" y="230" width="460" height="44" rx="10" fill="#0d1425" stroke="#1a2540" stroke-width="1"/>
+    <text x="380" y="258" font-size="16" fill="#ff354f">✉</text>
+    <text x="406" y="252" font-size="13" font-weight="700" fill="#e8edf5">Email</text>
+    <text x="406" y="267" font-size="11.5" fill="#8892a4">anand.jatothu.27@gmail.com</text>
+    <text x="800" y="259" font-size="13" fill="#247bff" text-anchor="end">→</text>
+
+    <!-- Phone -->
+    <rect x="360" y="284" width="460" height="44" rx="10" fill="#0d1425" stroke="#1a2540" stroke-width="1"/>
+    <text x="380" y="312" font-size="16" fill="#34d399">📱</text>
+    <text x="406" y="306" font-size="13" font-weight="700" fill="#e8edf5">Phone</text>
+    <text x="406" y="321" font-size="11.5" fill="#8892a4">+91 8121093531</text>
+    <text x="800" y="313" font-size="13" fill="#247bff" text-anchor="end">→</text>
+  </g>
+</svg>

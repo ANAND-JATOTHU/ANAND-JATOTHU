@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 320" width="860" height="320">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&amp;family=JetBrains+Mono:wght@400;700&amp;display=swap');
+      * { font-family: 'Inter', system-ui, sans-serif; }
+      @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+    </style>
+    <linearGradient id="hg1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#247bff" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#ff354f" stop-opacity="0.08"/>
+    </linearGradient>
+    <linearGradient id="hborder" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#247bff"/>
+      <stop offset="100%" stop-color="#ff354f"/>
+    </linearGradient>
+    <clipPath id="hportrait">
+      <circle cx="762" cy="160" r="118"/>
+    </clipPath>
+    <filter id="hglow">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <!-- dot texture -->
+    <pattern id="hdots" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#247bff" fill-opacity="0.08"/>
+    </pattern>
+  </defs>
+
+  <!-- bg -->
+  <rect width="860" height="320" fill="#070b16" rx="16"/>
+  <rect width="860" height="320" fill="url(#hdots)" rx="16"/>
+  <rect width="860" height="320" fill="url(#hg1)" rx="16"/>
+  <!-- gradient border -->
+  <rect x="1" y="1" width="858" height="318" rx="15" fill="none" stroke="url(#hborder)" stroke-width="1.5" opacity="0.6"/>
+
+  <!-- blue accent bar left -->
+  <rect x="36" y="60" width="3" height="200" fill="#247bff" rx="2" opacity="0.7">
+    <animate attributeName="opacity" values="0;0.7" dur="0.6s" begin="0s" fill="both"/>
+  </rect>
+
+  <!-- greeting -->
+  <text x="54" y="92" font-size="13" fill="#247bff" font-family="'JetBrains Mono', monospace" letter-spacing="3" opacity="0">
+    &gt; Hello, World! 👋
+    <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.3s" fill="both"/>
+  </text>
+
+  <!-- name reveal -->
+  <text x="54" y="158" font-size="52" font-weight="900" fill="#e8edf5" letter-spacing="-1" opacity="0">
+    ANAND JATOTHU
+    <animate attributeName="opacity" values="0;1" dur="0.7s" begin="0.6s" fill="both"/>
+    <animate attributeName="y" values="178;158" dur="0.7s" begin="0.6s" fill="both"/>
+  </text>
+  <!-- name blue underline -->
+  <rect x="54" y="165" width="0" height="3" fill="#247bff" rx="1.5">
+    <animate attributeName="width" values="0;460" dur="0.8s" begin="1.1s" fill="both"/>
+  </rect>
+
+  <!-- cycling roles -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;1;1;0" dur="10s" begin="1.4s" fill="both" repeatCount="indefinite" keyTimes="0;0.05;0.2;0.25"/>
+    <text x="54" y="196" font-size="17" fill="#247bff" font-family="'JetBrains Mono', monospace">Full-Stack Web Developer</text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;0;1;1;0" dur="10s" begin="1.4s" fill="both" repeatCount="indefinite" keyTimes="0;0.24;0.25;0.3;0.45;0.5"/>
+    <text x="54" y="196" font-size="17" fill="#ff354f" font-family="'JetBrains Mono', monospace">AI / ML Engineer</text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;0;0;0;1;1;0" dur="10s" begin="1.4s" fill="both" repeatCount="indefinite" keyTimes="0;0.49;0.5;0.5;0.51;0.55;0.7;0.75"/>
+    <text x="54" y="196" font-size="17" fill="#a78bfa" font-family="'JetBrains Mono', monospace">Open Source Contributor</text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;1;1;0" dur="10s" begin="1.4s" fill="both" repeatCount="indefinite" keyTimes="0;0.74;0.75;0.75;0.76;0.76;0.77;0.8;0.95;1"/>
+    <text x="54" y="196" font-size="17" fill="#34d399" font-family="'JetBrains Mono', monospace">Problem Solver &amp; Builder</text>
+  </g>
+
+  <!-- one-line pitch -->
+  <text x="54" y="228" font-size="13.5" fill="#8892a4" opacity="0" font-weight="400">
+    Building secure, scalable, AI-powered software that matters.
+    <animate attributeName="opacity" values="0;0.85" dur="0.6s" begin="1.8s" fill="both"/>
+  </text>
+
+  <!-- location / college row -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.6s" begin="2.1s" fill="both"/>
+    <!-- pin icon -->
+    <text x="54" y="265" font-size="13" fill="#8892a4">📍 Hyderabad, India</text>
+    <text x="210" y="265" font-size="13" fill="#8892a4">🎓 B.Tech IT @ TKREC</text>
+    <text x="390" y="265" font-size="13" fill="#8892a4">🔭 Open to Internships</text>
+  </g>
+
+  <!-- portfolio badge -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.5s" begin="2.4s" fill="both"/>
+    <rect x="54" y="278" width="165" height="26" rx="13" fill="#247bff" fill-opacity="0.15" stroke="#247bff" stroke-width="1"/>
+    <text x="137" y="295" font-size="12" fill="#247bff" text-anchor="middle" font-weight="700">🌐 anandjatothu.me</text>
+  </g>
+
+  <!-- portrait circle glow -->
+  <circle cx="762" cy="160" r="122" fill="none" stroke="#247bff" stroke-width="1.5" opacity="0.4">
+    <animate attributeName="stroke-opacity" values="0.4;0.8;0.4" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="762" cy="160" r="119" fill="#0d1425"/>
+  <!-- portrait -->
+  <image href="https://raw.githubusercontent.com/ANAND-JATOTHU/ANAND-JATOTHU/main/assets/id.png" x="644" y="42" width="236" height="236" clip-path="url(#hportrait)" preserveAspectRatio="xMidYMid slice" opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.8s" begin="0.8s" fill="both"/>
+  </image>
+  <!-- portrait ring crimson accent -->
+  <circle cx="762" cy="160" r="122" fill="none" stroke="#ff354f" stroke-width="1" stroke-dasharray="60 300" opacity="0.5">
+    <animateTransform attributeName="transform" type="rotate" from="0 762 160" to="360 762 160" dur="12s" repeatCount="indefinite"/>
+  </circle>
+</svg>

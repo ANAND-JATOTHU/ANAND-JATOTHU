@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 268" width="860" height="268">
+  <defs>
+    <linearGradient id="sg1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#247bff" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#ff354f" stop-opacity="0.05"/>
+    </linearGradient>
+    <linearGradient id="sborder" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#247bff"/>
+      <stop offset="100%" stop-color="#ff354f"/>
+    </linearGradient>
+    <pattern id="sdots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#247bff" fill-opacity="0.07"/>
+    </pattern>
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </defs>
+  <rect width="860" height="268" fill="#070b16" rx="16"/>
+  <rect width="860" height="268" fill="url(#sdots)" rx="16"/>
+  <rect width="860" height="268" fill="url(#sg1)" rx="16"/>
+  <rect x="1" y="1" width="858" height="266" rx="15" fill="none" stroke="url(#sborder)" stroke-width="1.5" opacity="0.5"/>
+
+  <text x="36" y="40" font-size="11" font-family="'JetBrains Mono',monospace" fill="#247bff" letter-spacing="3">TECH STACK</text>
+  <rect x="36" y="46" width="60" height="2" fill="#247bff" rx="1"/>
+
+  <!-- Language group -->
+  <text x="36" y="78" font-size="12" fill="#8892a4" font-family="'JetBrains Mono',monospace">// Languages</text>
+  <g>
+    <rect x="36" y="90" width="62" height="22" rx="11" fill="#247bff" fill-opacity="0.15" stroke="#247bff" stroke-width="1" stroke-opacity="0.6"/>
+    <text x="67" y="105" font-size="11" fill="#247bff" text-anchor="middle" font-weight="600">Python</text>
+  </g><g>
+    <rect x="106" y="90" width="90" height="22" rx="11" fill="#60a5fa" fill-opacity="0.15" stroke="#60a5fa" stroke-width="1" stroke-opacity="0.6"/>
+    <text x="151" y="105" font-size="11" fill="#60a5fa" text-anchor="middle" font-weight="600">TypeScript</text>
+  </g><g>
+    <rect x="204" y="90" width="90" height="22" rx="11" fill="#f7df1e" fill-opacity="0.15" stroke="#f7df1e" stroke-width="1" stroke-opacity="0.6"/>
+    <text x="249" y="105" font-size="11" fill="#f7df1e" text-anchor="middle" font-weight="600">JavaScript</text>
+  </g><g>
+    <rect x="302" y="90" width="48" height="22" rx="11" fill="#ed8b00" fill-opacity="0.15" stroke="#ed8b00" stroke-width="1" stroke-opacity="0.6"/>
+    <text x="326" y="105" font-size="11" fill="#ed8b00" text-anchor="middle" font-weight="600">Java</text>
+  </g><g>
+    <rect x="358" y="90" width="48" height="22" rx="11" fill="#0175c2" fill-opacity="0.15" stroke="#0175c2" stroke-width="1" stroke-opacity="0.6"/>
+    <text x="382" y="105" font-size="11" fill="#0175c2" text-anchor="middle" font-weight="600">Dart</text>
+  </g><g>
+    <rect x="414" y="90" width="62" height="22" rx="11" fill="#7f52ff" fill-opacity="0.15" stroke="#7f52ff" stroke-width="1" stroke-opacity="0.6"/>
+    <text x="445" y="105" font-size="11" fill="#7f52ff" text-anchor="middle" font-weight="600">Kotlin</text>
+  </g><g>
+    <rect x="484" y="90" width="48" height="22" rx="11" fill="#cc342d" fill-opacity="0.15" stroke="#cc342d" stroke-width="1" stroke-opacity="0.6"/>
+    <text x="508" y="105" font-size="11" fill="#cc342d" text-anchor="middle" font-weight="600">Ruby</text>
+  </g><g>
+    <rect x="540" y="90" width="48" height="22" rx="11" fill="#39457e" fill-opacity="0.15" stroke="#39457e" stroke-width="1" stroke-opacity="0.6"/>
+    <text x="564" y="105" font-size="11" fill="#39457e" text-anchor="middle" font-weight="600">Perl</text>
+  </g>
+
+  <!-- Web group -->
+  <text x="36" y="134" font-size="12" fill="#8892a4" font-family="'JetBrains Mono',monospace">// Web &amp; Frameworks</text>
+  <g>
+    <rect x="36" y="144" width="69" height="22" rx="11" fill="#e8edf5" fill-opacity="0.15" stroke="#e8edf5" stroke-width="1" stroke-opacity="0.6"/>
+    <text x="70" y="159" font-size="11" fill="#e8edf5" text-anchor="middle" font-weight="600">Next.js</text>
+  </g><g>
+    <rect x="113" y="144" width="55" height="22" rx="11" fill="#61dafb" fill-opacity="0.15" stroke="#61dafb" stroke-width="1" stroke-opacity="0.6"/>
+    <text x="140" y="159" font-size="11" fill="#61dafb" text-anchor="middle" font-weight="600">React</text>
+  </g><g>
+    <rect x="176" y="144" width="62" height="22" rx="11" fill="#092e20" fill-opacity="0.15" stroke="#092e20" stroke-width="1" stroke-opacity="0.6"/>
+    <text x="207" y="159" font-size="11" fill="#092e20" text-anchor="middle" font-weight="600">Django</text>
+  </g><g>
+    <rect x="246" y="144" width="69" height="22" rx="11" fill="#6da55f" fill-opacity="0.15" stroke="#6da55f" stroke-width="1" stroke-opacity="0.6"/>
+    <text x="280" y="159" font-size="11" fill="#6da55f" text-anchor="middle" font-weight="600">Node.js</text>
+  </g><g>
+    <rect x="323" y="144" width="69" height="22" rx="11" fill="#005571" fill-opacity="0.15" stroke="#005571" stroke-width="1" stroke-opacity="0.6"/>
+    <text x="357" y="159" font-size="11" fill="#005571" text-anchor="middle" font-weight="600">FastAPI</text>
+  </g><g>
+    <rect x="400" y="144" width="69" height="22" rx="11" fill="#404d59" fill-opacity="0.15" stroke="#404d59" stroke-width="1" stroke-opacity="0.6"/>
+    <text x="434" y="159" font-size="11" fill="#404d59" text-anchor="middle" font-weight="600">Express</text>
+  </g><g>
+    <rect x="477" y="144" width="76" height="22" rx="11" fill="#e34f26" fill-opacity="0.15" stroke="#e34f26" stroke-width="1" stroke-opacity="0.6"/>
+    <text x="515" y="159" font-size="11" fill="#e34f26" text-anchor="middle" font-weight="600">HTML/CSS</text>
+  </g>
+
+  <!-- Cloud/DB group -->
+  <text x="36" y="188" font-size="12" fill="#8892a4" font-family="'JetBrains Mono',monospace">// Cloud, DB &amp; DevOps</text>
+  <g>
+    <rect x="36" y="198" width="41" height="22" rx="11" fill="#ff9900" fill-opacity="0.15" stroke="#ff9900" stroke-width="1" stroke-opacity="0.6"/>
+    <text x="56" y="213" font-size="11" fill="#ff9900" text-anchor="middle" font-weight="600">AWS</text>
+  </g><g>
+    <rect x="85" y="198" width="41" height="22" rx="11" fill="#4285f4" fill-opacity="0.15" stroke="#4285f4" stroke-width="1" stroke-opacity="0.6"/>
+    <text x="105" y="213" font-size="11" fill="#4285f4" text-anchor="middle" font-weight="600">GCP</text>
+  </g><g>
+    <rect x="134" y="198" width="76" height="22" rx="11" fill="#3ecf8e" fill-opacity="0.15" stroke="#3ecf8e" stroke-width="1" stroke-opacity="0.6"/>
+    <text x="172" y="213" font-size="11" fill="#3ecf8e" text-anchor="middle" font-weight="600">Supabase</text>
+  </g><g>
+    <rect x="218" y="198" width="76" height="22" rx="11" fill="#ffcd34" fill-opacity="0.15" stroke="#ffcd34" stroke-width="1" stroke-opacity="0.6"/>
+    <text x="256" y="213" font-size="11" fill="#ffcd34" text-anchor="middle" font-weight="600">Firebase</text>
+  </g><g>
+    <rect x="302" y="198" width="69" height="22" rx="11" fill="#4ea94b" fill-opacity="0.15" stroke="#4ea94b" stroke-width="1" stroke-opacity="0.6"/>
+    <text x="336" y="213" font-size="11" fill="#4ea94b" text-anchor="middle" font-weight="600">MongoDB</text>
+  </g><g>
+    <rect x="379" y="198" width="90" height="22" rx="11" fill="#316192" fill-opacity="0.15" stroke="#316192" stroke-width="1" stroke-opacity="0.6"/>
+    <text x="424" y="213" font-size="11" fill="#316192" text-anchor="middle" font-weight="600">PostgreSQL</text>
+  </g><g>
+    <rect x="477" y="198" width="62" height="22" rx="11" fill="#0db7ed" fill-opacity="0.15" stroke="#0db7ed" stroke-width="1" stroke-opacity="0.6"/>
+    <text x="508" y="213" font-size="11" fill="#0db7ed" text-anchor="middle" font-weight="600">Docker</text>
+  </g><g>
+    <rect x="547" y="198" width="62" height="22" rx="11" fill="#003b57" fill-opacity="0.15" stroke="#003b57" stroke-width="1" stroke-opacity="0.6"/>
+    <text x="578" y="213" font-size="11" fill="#003b57" text-anchor="middle" font-weight="600">SQLite</text>
+  </g>
+</svg>

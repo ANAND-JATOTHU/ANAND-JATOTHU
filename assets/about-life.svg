@@ -1,0 +1,146 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 300" width="860" height="300">
+  <defs>
+    <linearGradient id="ag1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#247bff" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#ff354f" stop-opacity="0.06"/>
+    </linearGradient>
+    <linearGradient id="aborder" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#247bff"/>
+      <stop offset="100%" stop-color="#ff354f"/>
+    </linearGradient>
+    <pattern id="adots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#247bff" fill-opacity="0.07"/>
+    </pattern>
+    <linearGradient id="barBlue" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#247bff"/>
+      <stop offset="100%" stop-color="#60a5fa"/>
+    </linearGradient>
+    <linearGradient id="barRed" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ff354f"/>
+      <stop offset="100%" stop-color="#f97316"/>
+    </linearGradient>
+    <linearGradient id="barPurple" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#a78bfa"/>
+    </linearGradient>
+    <linearGradient id="barGreen" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#059669"/>
+      <stop offset="100%" stop-color="#34d399"/>
+    </linearGradient>
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </defs>
+
+  <rect width="860" height="300" fill="#070b16" rx="16"/>
+  <rect width="860" height="300" fill="url(#adots)" rx="16"/>
+  <rect width="860" height="300" fill="url(#ag1)" rx="16"/>
+  <rect x="1" y="1" width="858" height="298" rx="15" fill="none" stroke="url(#aborder)" stroke-width="1.5" opacity="0.5"/>
+
+  <!-- SECTION TITLE -->
+  <text x="36" y="46" font-size="11" font-family="'JetBrains Mono',monospace" fill="#247bff" letter-spacing="3">ABOUT ME</text>
+  <rect x="36" y="52" width="60" height="2" fill="#247bff" rx="1"/>
+
+  <!-- LEFT: capabilities -->
+  <text x="36" y="84" font-size="19" font-weight="700" fill="#e8edf5">Capabilities</text>
+
+  <!-- skill bars -->
+  <!-- Full-Stack Dev 92% -->
+  <text x="36" y="110" font-size="11.5" fill="#8892a4">Full-Stack Development</text>
+  <rect x="36" y="114" width="320" height="7" rx="3.5" fill="#0d1425"/>
+  <rect x="36" y="114" width="0" height="7" rx="3.5" fill="url(#barBlue)">
+    <animate attributeName="width" values="0;294" dur="1s" begin="0.3s" fill="both"/>
+  </rect>
+  <text x="362" y="121" font-size="10" fill="#247bff" text-anchor="end">92%</text>
+
+  <!-- AI/ML 80% -->
+  <text x="36" y="140" font-size="11.5" fill="#8892a4">AI / ML Integration</text>
+  <rect x="36" y="144" width="320" height="7" rx="3.5" fill="#0d1425"/>
+  <rect x="36" y="144" width="0" height="7" rx="3.5" fill="url(#barRed)">
+    <animate attributeName="width" values="0;256" dur="1s" begin="0.5s" fill="both"/>
+  </rect>
+  <text x="362" y="151" font-size="10" fill="#ff354f" text-anchor="end">80%</text>
+
+  <!-- Cloud/Backend 85% -->
+  <text x="36" y="170" font-size="11.5" fill="#8892a4">Cloud &amp; Backend Systems</text>
+  <rect x="36" y="174" width="320" height="7" rx="3.5" fill="#0d1425"/>
+  <rect x="36" y="174" width="0" height="7" rx="3.5" fill="url(#barPurple)">
+    <animate attributeName="width" values="0;272" dur="1s" begin="0.7s" fill="both"/>
+  </rect>
+  <text x="362" y="181" font-size="10" fill="#a78bfa" text-anchor="end">85%</text>
+
+  <!-- Problem Solving 88% -->
+  <text x="36" y="200" font-size="11.5" fill="#8892a4">Problem Solving &amp; DSA</text>
+  <rect x="36" y="204" width="320" height="7" rx="3.5" fill="#0d1425"/>
+  <rect x="36" y="204" width="0" height="7" rx="3.5" fill="url(#barGreen)">
+    <animate attributeName="width" values="0;281" dur="1s" begin="0.9s" fill="both"/>
+  </rect>
+  <text x="362" y="211" font-size="10" fill="#34d399" text-anchor="end">88%</text>
+
+  <!-- UI/UX Design 75% -->
+  <text x="36" y="230" font-size="11.5" fill="#8892a4">UI/UX Design</text>
+  <rect x="36" y="234" width="320" height="7" rx="3.5" fill="#0d1425"/>
+  <rect x="36" y="234" width="0" height="7" rx="3.5" fill="url(#barBlue)">
+    <animate attributeName="width" values="0;240" dur="1s" begin="1.1s" fill="both"/>
+  </rect>
+  <text x="362" y="241" font-size="10" fill="#247bff" text-anchor="end">75%</text>
+
+  <!-- divider -->
+  <line x1="420" y1="30" x2="420" y2="275" stroke="#1a2540" stroke-width="1"/>
+
+  <!-- RIGHT: interests carousel (3 slides, 4s each) -->
+  <!-- Slide 1: Learning -->
+  <g opacity="1">
+    <animate attributeName="opacity" values="1;1;0;0;0;0;0;0;1" dur="12s" begin="0s" fill="both" repeatCount="indefinite" keyTimes="0;0.28;0.33;0.33;0.66;0.66;0.99;1;1"/>
+    <text x="450" y="84" font-size="19" font-weight="700" fill="#e8edf5">Currently Learning 📚</text>
+    <text x="450" y="114" font-size="13" fill="#8892a4">▸ Advanced Data Structures &amp; Algorithms</text>
+    <text x="450" y="136" font-size="13" fill="#8892a4">▸ Game Development (Godot / Unity)</text>
+    <text x="450" y="158" font-size="13" fill="#8892a4">▸ Deep Learning &amp; Neural Networks</text>
+    <text x="450" y="180" font-size="13" fill="#8892a4">▸ AWS Solution Architect concepts</text>
+    <text x="450" y="210" font-size="11" fill="#247bff" opacity="0.7">📅 Updated Oct 2026</text>
+  </g>
+  <!-- Slide 2: Interests -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0;0;0;0;0" dur="12s" begin="0s" fill="both" repeatCount="indefinite" keyTimes="0;0.32;0.33;0.61;0.66;0.66;0.99;1;1"/>
+    <text x="450" y="84" font-size="19" font-weight="700" fill="#e8edf5">When I'm Not Coding 🎮</text>
+    <text x="450" y="114" font-size="13" fill="#8892a4">▸ Competitive Programming</text>
+    <text x="450" y="136" font-size="13" fill="#8892a4">▸ 3D Modelling (Blender)</text>
+    <text x="450" y="158" font-size="13" fill="#8892a4">▸ Open-Source Exploration</text>
+    <text x="450" y="180" font-size="13" fill="#8892a4">▸ PC Building &amp; Hardware</text>
+    <text x="450" y="210" font-size="11" fill="#ff354f" opacity="0.7">🕹️ Gaming enthusiast too!</text>
+  </g>
+  <!-- Slide 3: Goals -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;0;0;0;1;1;0;0" dur="12s" begin="0s" fill="both" repeatCount="indefinite" keyTimes="0;0.32;0.33;0.61;0.65;0.66;0.94;0.99;1"/>
+    <text x="450" y="84" font-size="19" font-weight="700" fill="#e8edf5">2026 Goals 🎯</text>
+    <text x="450" y="114" font-size="13" fill="#8892a4">▸ Land a developer internship</text>
+    <text x="450" y="136" font-size="13" fill="#8892a4">▸ Ship StuLink v2.0</text>
+    <text x="450" y="158" font-size="13" fill="#8892a4">▸ Contribute to 5+ OSS projects</text>
+    <text x="450" y="180" font-size="13" fill="#8892a4">▸ Earn AWS Developer Associate cert</text>
+    <text x="450" y="210" font-size="11" fill="#34d399" opacity="0.7">🚀 Making it happen!</text>
+  </g>
+
+  <!-- slide progress bars -->
+  <rect x="450" y="258" width="370" height="4" rx="2" fill="#0d1425"/>
+  <!-- segment 1 -->
+  <rect x="450" y="258" width="0" height="4" rx="2" fill="#247bff">
+    <animate attributeName="width" values="0;120;120;0;0;0;0;0;0" dur="12s" begin="0s" fill="both" repeatCount="indefinite" keyTimes="0;0.28;0.33;0.33;0.66;0.66;0.99;1;1"/>
+  </rect>
+  <!-- segment 2 -->
+  <rect x="574" y="258" width="0" height="4" rx="2" fill="#ff354f">
+    <animate attributeName="width" values="0;0;0;120;120;0;0;0;0" dur="12s" begin="0s" fill="both" repeatCount="indefinite" keyTimes="0;0.32;0.33;0.61;0.66;0.66;0.99;1;1"/>
+  </rect>
+  <!-- segment 3 -->
+  <rect x="698" y="258" width="0" height="4" rx="2" fill="#a78bfa">
+    <animate attributeName="width" values="0;0;0;0;0;120;120;0;0" dur="12s" begin="0s" fill="both" repeatCount="indefinite" keyTimes="0;0.32;0.65;0.66;0.65;0.66;0.94;0.99;1"/>
+  </rect>
+
+  <!-- slide dots -->
+  <circle cx="562" cy="272" r="4" fill="#247bff">
+    <animate attributeName="opacity" values="1;1;0.3;0.3;0.3;0.3;0.3;0.3;1" dur="12s" begin="0s" fill="both" repeatCount="indefinite" keyTimes="0;0.28;0.33;0.33;0.66;0.66;0.99;1;1"/>
+  </circle>
+  <circle cx="578" cy="272" r="4" fill="#ff354f" opacity="0.3">
+    <animate attributeName="opacity" values="0.3;0.3;1;1;0.3;0.3;0.3;0.3;0.3" dur="12s" begin="0s" fill="both" repeatCount="indefinite" keyTimes="0;0.32;0.33;0.61;0.66;0.66;0.99;1;1"/>
+  </circle>
+  <circle cx="594" cy="272" r="4" fill="#a78bfa" opacity="0.3">
+    <animate attributeName="opacity" values="0.3;0.3;0.3;0.3;0.3;1;1;0.3;0.3" dur="12s" begin="0s" fill="both" repeatCount="indefinite" keyTimes="0;0.32;0.65;0.66;0.65;0.66;0.94;0.99;1"/>
+  </circle>
+</svg>
