@@ -22,9 +22,8 @@ I am a third-year **B.Tech Information Technology student** at **Teegala Krishna
 
 I enjoy taking an idea, exploring how it operates under the hood, and building it into a reliable, working application. Rather than claiming expertise across everything, I believe in staying grounded, being open to feedback, and learning continuously by writing code every day.
 
-- 🌱 **Current Focus:** Deepening my understanding of Data Structures & Algorithms, modern web frameworks, and local AI toolchains.
-- 💼 **Internship Experience:** Former Python Development Intern at **Kinetrexa Software** (building role-based portals & APIs) and **ServiceNow Virtual Intern**.
-- 🎯 **What I'm Looking For:** Software Development Engineer (SDE) internships where I can contribute to real-world codebases, learn from experienced mentors, and add value.
+- 🌱 **Current Focus:** Deepening my understanding of Data Structures & Algorithms, modern web frameworks, and practical AI toolchains.
+- 🎯 **What I'm Looking For:** Software Development Engineer (SDE) / Full-Stack opportunities where I can contribute to real-world codebases, learn from experienced mentors, and add value.
 
 ---
 
@@ -40,7 +39,7 @@ I enjoy taking an idea, exploring how it operates under the hood, and building i
 
 | Project | Description | Stack | Links |
 |:---|:---|:---|:---:|
-| **[Academia (Kinetrexa)](https://github.com/ANAND-JATOTHU)** | Role-based student & attendance management system built during my internship. Features multi-tier access (Admin, Teacher, Student), automated tracking, CSV data pipelines, and dynamic vector PDF ID generation. | Django · Tailwind CSS · SQLite / PostgreSQL | [GitHub](https://github.com/ANAND-JATOTHU) |
+| **[Academia](https://github.com/ANAND-JATOTHU)** | Role-based student & attendance management system featuring multi-tier access control (Admin, Teacher, Student portals), automated tracking, CSV data pipelines, and dynamic vector PDF ID generation. | Django · Tailwind CSS · SQLite / PostgreSQL | [GitHub](https://github.com/ANAND-JATOTHU) |
 | **[StuLink](https://github.com/ANAND-JATOTHU/StuLink)** | Safe social learning and skill-sharing platform for students. Designed with Supabase Row Level Security (RLS), parent access portal, and an automated text moderation engine. | Next.js · TypeScript · React 19 · Supabase · Cloudinary | [▶ Demo](https://stu-link-web.vercel.app/) · [GitHub](https://github.com/ANAND-JATOTHU/StuLink) |
 | **[SRUTHI](https://github.com/ANAND-JATOTHU)** | Fully offline conversational AI assistant powered by a local quantized Mistral-7B model, Faster-Whisper for low-latency speech-to-text, and a custom PyQt6 GUI. | Python · Mistral LLM · Faster-Whisper · PyQt6 | [GitHub](https://github.com/ANAND-JATOTHU) |
 | **[Transvara](https://github.com/ANAND-JATOTHU)** | Fast and secure web-based peer-to-peer file transfer application focused on simplicity and client-side encryption. | Next.js · Node.js · WebRTC | [▶ Demo](https://transfer-app-frontend.vercel.app/) · [GitHub](https://github.com/ANAND-JATOTHU) |
@@ -68,11 +67,11 @@ To me, GitHub is my digital workshop. Every commit, issue, and repository repres
 <div align="center">
 
 <!-- Koi Background Options:
-     - koi/koi-zen-pond.gif    (Deep Zen Water Pond with ripples & lily pads - ACTIVE)
-     - koi/koi-tokyonight.gif  (TokyoNight Card with neon borders)
+     - koi/koi-tokyonight.gif  (TokyoNight Card with neon borders - ACTIVE)
+     - koi/koi-zen-pond.gif    (Deep Zen Water Pond with ripples & lily pads)
      - koi/koi.gif             (Transparent / clean)
 -->
-<img src="koi/koi-zen-pond.gif" width="280" alt="Anand's Git Koi Pond" />
+<img src="koi/koi-tokyonight.gif" width="280" alt="Anand's Git Koi Pond" />
 
 <p><em>An animated pixel-art koi that grows with cumulative contributions, maps colors to top languages, and swims according to daily commit activity. Powered by <a href="https://github.com/yalongwastaken/git-koi">git-koi</a>.</em></p>
 
@@ -94,7 +93,7 @@ To me, GitHub is my digital workshop. Every commit, issue, and repository repres
 
 ## 💼 Connect on LinkedIn
 
-I regularly share what I'm learning, project build breakdowns, and software discoveries on LinkedIn. Whether you're a recruiter seeking an enthusiastic intern, a fellow developer, or an engineer willing to share advice, I would love to connect!
+I regularly share what I'm learning, project build breakdowns, and software discoveries on LinkedIn. Whether you're a recruiter, fellow developer, or an engineer willing to share advice, I would love to connect!
 
 <div align="center">
 

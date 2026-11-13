@@ -79,7 +79,7 @@
     <animate attributeName="opacity" values="0;1" dur="0.6s" begin="2.1s" fill="freeze"/>
     <text x="54" y="265" font-size="13" fill="#8892a4">📍 Hyderabad, India</text>
     <text x="210" y="265" font-size="13" fill="#8892a4">🎓 B.Tech IT @ TKREC</text>
-    <text x="390" y="265" font-size="13" fill="#8892a4">🌱 Open to SDE Internships</text>
+    <text x="390" y="265" font-size="13" fill="#8892a4">🌱 Open to SDE Opportunities</text>
   </g>
 
   <g opacity="0">

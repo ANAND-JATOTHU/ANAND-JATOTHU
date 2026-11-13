@@ -134,7 +134,7 @@ HERO_SVG = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 320" wid
     <animate attributeName="opacity" values="0;1" dur="0.6s" begin="2.1s" fill="freeze"/>
     <text x="54" y="265" font-size="13" fill="{DIM}">📍 Hyderabad, India</text>
     <text x="210" y="265" font-size="13" fill="{DIM}">🎓 B.Tech IT @ TKREC</text>
-    <text x="390" y="265" font-size="13" fill="{DIM}">🌱 Open to SDE Internships</text>
+    <text x="390" y="265" font-size="13" fill="{DIM}">🌱 Open to SDE Opportunities</text>
   </g>
 
   <g opacity="0">
@@ -258,7 +258,7 @@ ABOUT_SVG = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 300" wi
   <g opacity="0">
     <animate attributeName="opacity" values="0;0;0;0;0;1;1;0;0" dur="12s" begin="0s" fill="freeze" repeatCount="indefinite" keyTimes="0;0.32;0.33;0.61;0.65;0.66;0.94;0.99;1"/>
     <text x="450" y="84" font-size="19" font-weight="700" fill="{OFF_W}">Current Goals 🎯</text>
-    <text x="450" y="114" font-size="13" fill="{DIM}">▸ Secure an SDE / Full-Stack internship</text>
+    <text x="450" y="114" font-size="13" fill="{DIM}">▸ Secure an SDE / Full-Stack role</text>
     <text x="450" y="136" font-size="13" fill="{DIM}">▸ Learn production engineering from mentors</text>
     <text x="450" y="158" font-size="13" fill="{DIM}">▸ Contribute meaningfully to open source</text>
     <text x="450" y="180" font-size="13" fill="{DIM}">▸ Build clean, dependable software tools</text>
@@ -426,11 +426,11 @@ ID_DASH_SVG = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 420" 
   <rect x="36" y="312" width="12" height="12" rx="6" fill="#22c55e">
     <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
   </rect>
-  <text x="54" y="323" font-size="14" fill="#22c55e" font-weight="600">Open to SDE Internships &amp; Learning</text>
+  <text x="54" y="323" font-size="14" fill="#22c55e" font-weight="600">Open to Opportunities &amp; Learning</text>
 
-  <text x="36" y="360" font-size="13" fill="{DIM}">Experience &amp; Learning</text>
-  <text x="36" y="378" font-size="11.5" fill="{OFF_W}">Python Dev Intern @ Kinetrexa · ServiceNow Virtual Intern</text>
-  <text x="36" y="394" font-size="11.5" fill="{OFF_W}">Full Stack Web with AI Tools (Edunet / TASKAI)</text>
+  <text x="36" y="360" font-size="13" fill="{DIM}">Focus &amp; Certifications</text>
+  <text x="36" y="378" font-size="11.5" fill="{OFF_W}">Full Stack Web with AI Tools (Edunet / TASKAI)</text>
+  <text x="36" y="394" font-size="11.5" fill="{OFF_W}">NPTEL Machine Learning · Python Architecture</text>
 
   <!-- LANYARD CARD -->
   <g transform="translate(590,0)">
@@ -595,9 +595,8 @@ I am a third-year **B.Tech Information Technology student** at **Teegala Krishna
 
 I enjoy taking an idea, exploring how it operates under the hood, and building it into a reliable, working application. Rather than claiming expertise across everything, I believe in staying grounded, being open to feedback, and learning continuously by writing code every day.
 
-- 🌱 **Current Focus:** Deepening my understanding of Data Structures & Algorithms, modern web frameworks, and local AI toolchains.
-- 💼 **Internship Experience:** Former Python Development Intern at **Kinetrexa Software** (building role-based portals & APIs) and **ServiceNow Virtual Intern**.
-- 🎯 **What I'm Looking For:** Software Development Engineer (SDE) internships where I can contribute to real-world codebases, learn from experienced mentors, and add value.
+- 🌱 **Current Focus:** Deepening my understanding of Data Structures & Algorithms, modern web frameworks, and practical AI toolchains.
+- 🎯 **What I'm Looking For:** Software Development Engineer (SDE) / Full-Stack opportunities where I can contribute to real-world codebases, learn from experienced mentors, and add value.
 
 ---
 
@@ -613,7 +612,7 @@ I enjoy taking an idea, exploring how it operates under the hood, and building i
 
 | Project | Description | Stack | Links |
 |:---|:---|:---|:---:|
-| **[Academia (Kinetrexa)](https://github.com/ANAND-JATOTHU)** | Role-based student & attendance management system built during my internship. Features multi-tier access (Admin, Teacher, Student), automated tracking, CSV data pipelines, and dynamic vector PDF ID generation. | Django · Tailwind CSS · SQLite / PostgreSQL | [GitHub](https://github.com/ANAND-JATOTHU) |
+| **[Academia](https://github.com/ANAND-JATOTHU)** | Role-based student & attendance management system featuring multi-tier access control (Admin, Teacher, Student portals), automated tracking, CSV data pipelines, and dynamic vector PDF ID generation. | Django · Tailwind CSS · SQLite / PostgreSQL | [GitHub](https://github.com/ANAND-JATOTHU) |
 | **[StuLink](https://github.com/ANAND-JATOTHU/StuLink)** | Safe social learning and skill-sharing platform for students. Designed with Supabase Row Level Security (RLS), parent access portal, and an automated text moderation engine. | Next.js · TypeScript · React 19 · Supabase · Cloudinary | [▶ Demo](https://stu-link-web.vercel.app/) · [GitHub](https://github.com/ANAND-JATOTHU/StuLink) |
 | **[SRUTHI](https://github.com/ANAND-JATOTHU)** | Fully offline conversational AI assistant powered by a local quantized Mistral-7B model, Faster-Whisper for low-latency speech-to-text, and a custom PyQt6 GUI. | Python · Mistral LLM · Faster-Whisper · PyQt6 | [GitHub](https://github.com/ANAND-JATOTHU) |
 | **[Transvara](https://github.com/ANAND-JATOTHU)** | Fast and secure web-based peer-to-peer file transfer application focused on simplicity and client-side encryption. | Next.js · Node.js · WebRTC | [▶ Demo](https://transfer-app-frontend.vercel.app/) · [GitHub](https://github.com/ANAND-JATOTHU) |
@@ -641,11 +640,11 @@ To me, GitHub is my digital workshop. Every commit, issue, and repository repres
 <div align="center">
 
 <!-- Koi Background Options:
-     - koi/koi-zen-pond.gif    (Deep Zen Water Pond with ripples & lily pads - ACTIVE)
-     - koi/koi-tokyonight.gif  (TokyoNight Card with neon borders)
+     - koi/koi-tokyonight.gif  (TokyoNight Card with neon borders - ACTIVE)
+     - koi/koi-zen-pond.gif    (Deep Zen Water Pond with ripples & lily pads)
      - koi/koi.gif             (Transparent / clean)
 -->
-<img src="koi/koi-zen-pond.gif" width="280" alt="Anand's Git Koi Pond" />
+<img src="koi/koi-tokyonight.gif" width="280" alt="Anand's Git Koi Pond" />
 
 <p><em>An animated pixel-art koi that grows with cumulative contributions, maps colors to top languages, and swims according to daily commit activity. Powered by <a href="https://github.com/yalongwastaken/git-koi">git-koi</a>.</em></p>
 
@@ -667,7 +666,7 @@ To me, GitHub is my digital workshop. Every commit, issue, and repository repres
 
 ## 💼 Connect on LinkedIn
 
-I regularly share what I'm learning, project build breakdowns, and software discoveries on LinkedIn. Whether you're a recruiter seeking an enthusiastic intern, a fellow developer, or an engineer willing to share advice, I would love to connect!
+I regularly share what I'm learning, project build breakdowns, and software discoveries on LinkedIn. Whether you're a recruiter, fellow developer, or an engineer willing to share advice, I would love to connect!
 
 <div align="center">
 

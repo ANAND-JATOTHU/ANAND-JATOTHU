@@ -108,7 +108,7 @@
   <g opacity="0">
     <animate attributeName="opacity" values="0;0;0;0;0;1;1;0;0" dur="12s" begin="0s" fill="freeze" repeatCount="indefinite" keyTimes="0;0.32;0.33;0.61;0.65;0.66;0.94;0.99;1"/>
     <text x="450" y="84" font-size="19" font-weight="700" fill="#e8edf5">Current Goals 🎯</text>
-    <text x="450" y="114" font-size="13" fill="#8892a4">▸ Secure an SDE / Full-Stack internship</text>
+    <text x="450" y="114" font-size="13" fill="#8892a4">▸ Secure an SDE / Full-Stack role</text>
     <text x="450" y="136" font-size="13" fill="#8892a4">▸ Learn production engineering from mentors</text>
     <text x="450" y="158" font-size="13" fill="#8892a4">▸ Contribute meaningfully to open source</text>
     <text x="450" y="180" font-size="13" fill="#8892a4">▸ Build clean, dependable software tools</text>
