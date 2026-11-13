@@ -45,42 +45,42 @@
   <text x="36" y="46" font-size="11" font-family="'JetBrains Mono',monospace" fill="#247bff" letter-spacing="3">ABOUT ME</text>
   <rect x="36" y="52" width="60" height="2" fill="#247bff" rx="1"/>
 
-  <text x="36" y="84" font-size="19" font-weight="700" fill="#e8edf5">Technical Focus</text>
+  <text x="36" y="84" font-size="19" font-weight="700" fill="#e8edf5">Technical Focus &amp; Growth</text>
 
   <text x="36" y="110" font-size="11.5" fill="#8892a4">Full-Stack Web (Django, Next.js, Node.js)</text>
   <rect x="36" y="114" width="320" height="7" rx="3.5" fill="#0d1425"/>
   <rect x="36" y="114" width="0" height="7" rx="3.5" fill="url(#barBlue)">
-    <animate attributeName="width" values="0;285" dur="1s" begin="0.3s" fill="freeze"/>
+    <animate attributeName="width" values="0;148" dur="1s" begin="0.3s" fill="freeze"/>
   </rect>
-  <text x="362" y="121" font-size="10" fill="#247bff" text-anchor="end">Active Focus</text>
+  <text x="362" y="121" font-size="10" fill="#247bff" text-anchor="end">46%</text>
 
   <text x="36" y="140" font-size="11.5" fill="#8892a4">Python &amp; Practical AI (Local LLMs, OpenCV)</text>
   <rect x="36" y="144" width="320" height="7" rx="3.5" fill="#0d1425"/>
   <rect x="36" y="144" width="0" height="7" rx="3.5" fill="url(#barRed)">
-    <animate attributeName="width" values="0;260" dur="1s" begin="0.5s" fill="freeze"/>
+    <animate attributeName="width" values="0;140" dur="1s" begin="0.5s" fill="freeze"/>
   </rect>
-  <text x="362" y="151" font-size="10" fill="#ff354f" text-anchor="end">Active Focus</text>
+  <text x="362" y="151" font-size="10" fill="#ff354f" text-anchor="end">44%</text>
 
   <text x="36" y="170" font-size="11.5" fill="#8892a4">Databases &amp; APIs (PostgreSQL, Supabase)</text>
   <rect x="36" y="174" width="320" height="7" rx="3.5" fill="#0d1425"/>
   <rect x="36" y="174" width="0" height="7" rx="3.5" fill="url(#barPurple)">
-    <animate attributeName="width" values="0;270" dur="1s" begin="0.7s" fill="freeze"/>
+    <animate attributeName="width" values="0;134" dur="1s" begin="0.7s" fill="freeze"/>
   </rect>
-  <text x="362" y="181" font-size="10" fill="#a78bfa" text-anchor="end">Proficient</text>
+  <text x="362" y="181" font-size="10" fill="#a78bfa" text-anchor="end">42%</text>
 
   <text x="36" y="200" font-size="11.5" fill="#8892a4">Data Structures &amp; Algorithms (Python, C++)</text>
   <rect x="36" y="204" width="320" height="7" rx="3.5" fill="#0d1425"/>
   <rect x="36" y="204" width="0" height="7" rx="3.5" fill="url(#barGreen)">
-    <animate attributeName="width" values="0;250" dur="1s" begin="0.9s" fill="freeze"/>
+    <animate attributeName="width" values="0;128" dur="1s" begin="0.9s" fill="freeze"/>
   </rect>
-  <text x="362" y="211" font-size="10" fill="#34d399" text-anchor="end">Practicing</text>
+  <text x="362" y="211" font-size="10" fill="#34d399" text-anchor="end">40%</text>
 
   <text x="36" y="230" font-size="11.5" fill="#8892a4">Cloud &amp; DevOps Basics (Docker, Cloud Run, Git)</text>
   <rect x="36" y="234" width="320" height="7" rx="3.5" fill="#0d1425"/>
   <rect x="36" y="234" width="0" height="7" rx="3.5" fill="url(#barBlue)">
-    <animate attributeName="width" values="0;240" dur="1s" begin="1.1s" fill="freeze"/>
+    <animate attributeName="width" values="0;120" dur="1s" begin="1.1s" fill="freeze"/>
   </rect>
-  <text x="362" y="241" font-size="10" fill="#247bff" text-anchor="end">Learning</text>
+  <text x="362" y="241" font-size="10" fill="#247bff" text-anchor="end">38%</text>
 
   <line x1="420" y1="30" x2="420" y2="275" stroke="#1a2540" stroke-width="1"/>
 
