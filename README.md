@@ -109,7 +109,7 @@ I regularly share what I'm learning, project build breakdowns, and software disc
 <div align="center">
 
 <img height="195" src="https://github-stats-extended.vercel.app/api?username=ANAND-JATOTHU&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats" />
-<img height="195" src="https://github-stats-extended.vercel.app/api/top-langs/?username=ANAND-JATOTHU&theme=tokyonight&hide_border=true&layout=compact&count_private=true" alt="Top Languages" />
+<img height="195" src="https://github-stats-extended.vercel.app/api/top-langs/?username=ANAND-JATOTHU&theme=tokyonight&hide_border=true&layout=compact&langs_count=8&card_width=400" alt="Top Languages" />
 <br/><br/>
 <img height="195" src="https://streak-stats.demolab.com/?user=ANAND-JATOTHU&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 
