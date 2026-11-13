@@ -108,24 +108,24 @@ HERO_SVG = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 320" wid
   <!-- cycling roles -->
   <g opacity="0">
     <animate attributeName="opacity" values="0;1;1;0" dur="10s" begin="1.4s" fill="freeze" repeatCount="indefinite" keyTimes="0;0.05;0.2;0.25"/>
-    <text x="54" y="196" font-size="17" fill="{BLUE}" font-family="'JetBrains Mono', monospace">Full-Stack Web Developer</text>
+    <text x="54" y="196" font-size="17" fill="{BLUE}" font-family="'JetBrains Mono', monospace">Full-Stack Software Engineer</text>
   </g>
   <g opacity="0">
     <animate attributeName="opacity" values="0;0;0;1;1;0" dur="10s" begin="1.4s" fill="freeze" repeatCount="indefinite" keyTimes="0;0.24;0.25;0.3;0.45;0.5"/>
-    <text x="54" y="196" font-size="17" fill="{CRIMSON}" font-family="'JetBrains Mono', monospace">AI / ML Engineer</text>
+    <text x="54" y="196" font-size="17" fill="{CRIMSON}" font-family="'JetBrains Mono', monospace">AI &amp; Web Builder</text>
   </g>
   <g opacity="0">
     <animate attributeName="opacity" values="0;0;0;0;0;1;1;0" dur="10s" begin="1.4s" fill="freeze" repeatCount="indefinite" keyTimes="0;0.49;0.5;0.5;0.51;0.55;0.7;0.75"/>
-    <text x="54" y="196" font-size="17" fill="#a78bfa" font-family="'JetBrains Mono', monospace">Open Source Contributor</text>
+    <text x="54" y="196" font-size="17" fill="#a78bfa" font-family="'JetBrains Mono', monospace">Python &amp; Open Source Explorer</text>
   </g>
   <g opacity="0">
     <animate attributeName="opacity" values="0;0;0;0;0;0;0;1;1;0" dur="10s" begin="1.4s" fill="freeze" repeatCount="indefinite" keyTimes="0;0.74;0.75;0.75;0.76;0.76;0.77;0.8;0.95;1"/>
-    <text x="54" y="196" font-size="17" fill="#34d399" font-family="'JetBrains Mono', monospace">Problem Solver &amp; Builder</text>
+    <text x="54" y="196" font-size="17" fill="#34d399" font-family="'JetBrains Mono', monospace">Curious Problem Solver</text>
   </g>
 
   <!-- one-line pitch -->
   <text x="54" y="228" font-size="13.5" fill="{DIM}" opacity="0" font-weight="400">
-    Building secure, scalable, AI-powered software that matters.
+    Building practical software and learning something new every day.
     <animate attributeName="opacity" values="0;0.85" dur="0.6s" begin="1.8s" fill="freeze"/>
   </text>
 
@@ -134,7 +134,7 @@ HERO_SVG = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 320" wid
     <animate attributeName="opacity" values="0;1" dur="0.6s" begin="2.1s" fill="freeze"/>
     <text x="54" y="265" font-size="13" fill="{DIM}">📍 Hyderabad, India</text>
     <text x="210" y="265" font-size="13" fill="{DIM}">🎓 B.Tech IT @ TKREC</text>
-    <text x="390" y="265" font-size="13" fill="{DIM}">🔭 Open to Internships</text>
+    <text x="390" y="265" font-size="13" fill="{DIM}">🌱 Open to SDE Internships</text>
   </g>
 
   <g opacity="0">
@@ -195,42 +195,42 @@ ABOUT_SVG = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 300" wi
   <text x="36" y="46" font-size="11" font-family="'JetBrains Mono',monospace" fill="{BLUE}" letter-spacing="3">ABOUT ME</text>
   <rect x="36" y="52" width="60" height="2" fill="{BLUE}" rx="1"/>
 
-  <text x="36" y="84" font-size="19" font-weight="700" fill="{OFF_W}">Capabilities</text>
+  <text x="36" y="84" font-size="19" font-weight="700" fill="{OFF_W}">Technical Focus</text>
 
-  <text x="36" y="110" font-size="11.5" fill="{DIM}">Full-Stack Development</text>
+  <text x="36" y="110" font-size="11.5" fill="{DIM}">Full-Stack Web (Django, Next.js, Node.js)</text>
   <rect x="36" y="114" width="320" height="7" rx="3.5" fill="{CARD}"/>
   <rect x="36" y="114" width="0" height="7" rx="3.5" fill="url(#barBlue)">
-    <animate attributeName="width" values="0;294" dur="1s" begin="0.3s" fill="freeze"/>
+    <animate attributeName="width" values="0;285" dur="1s" begin="0.3s" fill="freeze"/>
   </rect>
-  <text x="362" y="121" font-size="10" fill="{BLUE}" text-anchor="end">92%</text>
+  <text x="362" y="121" font-size="10" fill="{BLUE}" text-anchor="end">Active Focus</text>
 
-  <text x="36" y="140" font-size="11.5" fill="{DIM}">AI / ML Integration</text>
+  <text x="36" y="140" font-size="11.5" fill="{DIM}">Python &amp; Practical AI (Local LLMs, OpenCV)</text>
   <rect x="36" y="144" width="320" height="7" rx="3.5" fill="{CARD}"/>
   <rect x="36" y="144" width="0" height="7" rx="3.5" fill="url(#barRed)">
-    <animate attributeName="width" values="0;256" dur="1s" begin="0.5s" fill="freeze"/>
+    <animate attributeName="width" values="0;260" dur="1s" begin="0.5s" fill="freeze"/>
   </rect>
-  <text x="362" y="151" font-size="10" fill="{CRIMSON}" text-anchor="end">80%</text>
+  <text x="362" y="151" font-size="10" fill="{CRIMSON}" text-anchor="end">Active Focus</text>
 
-  <text x="36" y="170" font-size="11.5" fill="{DIM}">Cloud &amp; Backend Systems</text>
+  <text x="36" y="170" font-size="11.5" fill="{DIM}">Databases &amp; APIs (PostgreSQL, Supabase)</text>
   <rect x="36" y="174" width="320" height="7" rx="3.5" fill="{CARD}"/>
   <rect x="36" y="174" width="0" height="7" rx="3.5" fill="url(#barPurple)">
-    <animate attributeName="width" values="0;272" dur="1s" begin="0.7s" fill="freeze"/>
+    <animate attributeName="width" values="0;270" dur="1s" begin="0.7s" fill="freeze"/>
   </rect>
-  <text x="362" y="181" font-size="10" fill="#a78bfa" text-anchor="end">85%</text>
+  <text x="362" y="181" font-size="10" fill="#a78bfa" text-anchor="end">Proficient</text>
 
-  <text x="36" y="200" font-size="11.5" fill="{DIM}">Problem Solving &amp; DSA</text>
+  <text x="36" y="200" font-size="11.5" fill="{DIM}">Data Structures &amp; Algorithms (Python, C++)</text>
   <rect x="36" y="204" width="320" height="7" rx="3.5" fill="{CARD}"/>
   <rect x="36" y="204" width="0" height="7" rx="3.5" fill="url(#barGreen)">
-    <animate attributeName="width" values="0;281" dur="1s" begin="0.9s" fill="freeze"/>
+    <animate attributeName="width" values="0;250" dur="1s" begin="0.9s" fill="freeze"/>
   </rect>
-  <text x="362" y="211" font-size="10" fill="#34d399" text-anchor="end">88%</text>
+  <text x="362" y="211" font-size="10" fill="#34d399" text-anchor="end">Practicing</text>
 
-  <text x="36" y="230" font-size="11.5" fill="{DIM}">UI/UX Design</text>
+  <text x="36" y="230" font-size="11.5" fill="{DIM}">Cloud &amp; DevOps Basics (Docker, Cloud Run, Git)</text>
   <rect x="36" y="234" width="320" height="7" rx="3.5" fill="{CARD}"/>
   <rect x="36" y="234" width="0" height="7" rx="3.5" fill="url(#barBlue)">
     <animate attributeName="width" values="0;240" dur="1s" begin="1.1s" fill="freeze"/>
   </rect>
-  <text x="362" y="241" font-size="10" fill="{BLUE}" text-anchor="end">75%</text>
+  <text x="362" y="241" font-size="10" fill="{BLUE}" text-anchor="end">Learning</text>
 
   <line x1="420" y1="30" x2="420" y2="275" stroke="{BORDER}" stroke-width="1"/>
 
@@ -239,30 +239,30 @@ ABOUT_SVG = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 300" wi
     <animate attributeName="opacity" values="1;1;0;0;0;0;0;0;1" dur="12s" begin="0s" fill="freeze" repeatCount="indefinite" keyTimes="0;0.28;0.33;0.33;0.66;0.66;0.99;1;1"/>
     <text x="450" y="84" font-size="19" font-weight="700" fill="{OFF_W}">Currently Learning 📚</text>
     <text x="450" y="114" font-size="13" fill="{DIM}">▸ Advanced Data Structures &amp; Algorithms</text>
-    <text x="450" y="136" font-size="13" fill="{DIM}">▸ Deep Learning &amp; Neural Networks</text>
-    <text x="450" y="158" font-size="13" fill="{DIM}">▸ System Design Patterns</text>
-    <text x="450" y="180" font-size="13" fill="{DIM}">▸ AWS Solution Architect concepts</text>
-    <text x="450" y="210" font-size="11" fill="{BLUE}" opacity="0.7">📅 Updated Oct 2026</text>
+    <text x="450" y="136" font-size="13" fill="{DIM}">▸ System Design &amp; Microservice Patterns</text>
+    <text x="450" y="158" font-size="13" fill="{DIM}">▸ Practical AI Tooling &amp; Local Inference</text>
+    <text x="450" y="180" font-size="13" fill="{DIM}">▸ Cloud Deployments &amp; Production Best Practices</text>
+    <text x="450" y="210" font-size="11" fill="{BLUE}" opacity="0.7">🌱 Always curious</text>
   </g>
   <!-- Slide 2: Interests -->
   <g opacity="0">
     <animate attributeName="opacity" values="0;0;1;1;0;0;0;0;0" dur="12s" begin="0s" fill="freeze" repeatCount="indefinite" keyTimes="0;0.32;0.33;0.61;0.66;0.66;0.99;1;1"/>
-    <text x="450" y="84" font-size="19" font-weight="700" fill="{OFF_W}">Interests 🎯</text>
-    <text x="450" y="114" font-size="13" fill="{DIM}">▸ Problem Solving (LeetCode, CP)</text>
-    <text x="450" y="136" font-size="13" fill="{DIM}">▸ Open-Source Development</text>
-    <text x="450" y="158" font-size="13" fill="{DIM}">▸ Tech Community Building</text>
-    <text x="450" y="180" font-size="13" fill="{DIM}">▸ UI/UX Minimalist Design</text>
-    <text x="450" y="210" font-size="11" fill="{CRIMSON}" opacity="0.7">✨ Always exploring!</text>
+    <text x="450" y="84" font-size="19" font-weight="700" fill="{OFF_W}">What Drives Me 💡</text>
+    <text x="450" y="114" font-size="13" fill="{DIM}">▸ Understanding how software works under the hood</text>
+    <text x="450" y="136" font-size="13" fill="{DIM}">▸ Turning problem statements into functional code</text>
+    <text x="450" y="158" font-size="13" fill="{DIM}">▸ Learning through hands-on side projects</text>
+    <text x="450" y="180" font-size="13" fill="{DIM}">▸ Welcoming feedback to become a better engineer</text>
+    <text x="450" y="210" font-size="11" fill="{CRIMSON}" opacity="0.7">✨ Consistent practice</text>
   </g>
   <!-- Slide 3: Goals -->
   <g opacity="0">
     <animate attributeName="opacity" values="0;0;0;0;0;1;1;0;0" dur="12s" begin="0s" fill="freeze" repeatCount="indefinite" keyTimes="0;0.32;0.33;0.61;0.65;0.66;0.94;0.99;1"/>
-    <text x="450" y="84" font-size="19" font-weight="700" fill="{OFF_W}">2026 Goals 🚀</text>
-    <text x="450" y="114" font-size="13" fill="{DIM}">▸ Land a software engineering internship</text>
-    <text x="450" y="136" font-size="13" fill="{DIM}">▸ Ship StuLink v2.0</text>
-    <text x="450" y="158" font-size="13" fill="{DIM}">▸ Contribute to 5+ OSS projects</text>
-    <text x="450" y="180" font-size="13" fill="{DIM}">▸ Earn AWS Developer Associate cert</text>
-    <text x="450" y="210" font-size="11" fill="#34d399" opacity="0.7">🚀 Making it happen!</text>
+    <text x="450" y="84" font-size="19" font-weight="700" fill="{OFF_W}">Current Goals 🎯</text>
+    <text x="450" y="114" font-size="13" fill="{DIM}">▸ Secure an SDE / Full-Stack internship</text>
+    <text x="450" y="136" font-size="13" fill="{DIM}">▸ Learn production engineering from mentors</text>
+    <text x="450" y="158" font-size="13" fill="{DIM}">▸ Contribute meaningfully to open source</text>
+    <text x="450" y="180" font-size="13" fill="{DIM}">▸ Build clean, dependable software tools</text>
+    <text x="450" y="210" font-size="11" fill="#34d399" opacity="0.7">🚀 Step by step</text>
   </g>
 
   <rect x="450" y="258" width="370" height="4" rx="2" fill="{CARD}"/>
@@ -411,7 +411,7 @@ ID_DASH_SVG = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 420" 
   <rect x="36" y="56" width="60" height="2" fill="{BLUE}" rx="1"/>
 
   <text x="36" y="96" font-size="13" fill="{DIM}">Role</text>
-  <text x="36" y="114" font-size="16" font-weight="700" fill="{OFF_W}">Full-Stack Developer · AI Engineer</text>
+  <text x="36" y="114" font-size="16" font-weight="700" fill="{OFF_W}">Full-Stack Software Engineer &amp; AI Builder</text>
 
   <text x="36" y="148" font-size="13" fill="{DIM}">University</text>
   <text x="36" y="166" font-size="15" fill="{OFF_W}">TKREC — B.Tech IT (2023–2027)</text>
@@ -420,17 +420,17 @@ ID_DASH_SVG = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 420" 
   <text x="36" y="218" font-size="15" fill="{OFF_W}">Hyderabad, India</text>
 
   <text x="36" y="252" font-size="13" fill="{DIM}">Specialisation</text>
-  <text x="36" y="270" font-size="15" fill="{OFF_W}">Next.js · Supabase · Python · AI/ML</text>
+  <text x="36" y="270" font-size="15" fill="{OFF_W}">Python · Next.js · Django · Practical AI</text>
 
   <text x="36" y="304" font-size="13" fill="{DIM}">Status</text>
   <rect x="36" y="312" width="12" height="12" rx="6" fill="#22c55e">
     <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
   </rect>
-  <text x="54" y="323" font-size="14" fill="#22c55e" font-weight="600">Available for Internship</text>
+  <text x="54" y="323" font-size="14" fill="#22c55e" font-weight="600">Open to SDE Internships &amp; Learning</text>
 
-  <text x="36" y="360" font-size="13" fill="{DIM}">Certifications</text>
-  <text x="36" y="378" font-size="11.5" fill="{OFF_W}">AWS Developer Associate (Infosys)</text>
-  <text x="36" y="394" font-size="11.5" fill="{OFF_W}">ServiceNow CIS-DF · NPTEL ML · Ethical Hacking</text>
+  <text x="36" y="360" font-size="13" fill="{DIM}">Experience &amp; Learning</text>
+  <text x="36" y="378" font-size="11.5" fill="{OFF_W}">Python Dev Intern @ Kinetrexa · ServiceNow Virtual Intern</text>
+  <text x="36" y="394" font-size="11.5" fill="{OFF_W}">Full Stack Web with AI Tools (Edunet / TASKAI)</text>
 
   <!-- LANYARD CARD -->
   <g transform="translate(590,0)">
@@ -464,7 +464,7 @@ ID_DASH_SVG = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 420" 
       <rect x="655" y="130" width="130" height="130" rx="10" fill="none" stroke="white" stroke-width="1.5" opacity="0.3"/>
 
       <text x="720" y="278" font-size="16" font-weight="900" fill="{OFF_W}" text-anchor="middle">ANAND JATOTHU</text>
-      <text x="720" y="296" font-size="11" fill="{DIM}" text-anchor="middle">Full-Stack · AI/ML · Cloud</text>
+      <text x="720" y="296" font-size="11" fill="{DIM}" text-anchor="middle">Full-Stack · AI Builder</text>
 
       <line x1="620" y1="306" x2="820" y2="306" stroke="{BORDER}" stroke-width="1"/>
       <rect x="630" y="314" width="180" height="40" fill="url(#barcode)" opacity="0.85"/>
@@ -578,6 +578,27 @@ README = """<!-- ANAND JATOTHU — GitHub Profile README -->
 
 </div>
 
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/anandjatothu)
+[![Portfolio](https://img.shields.io/badge/Portfolio-247BFF?style=for-the-badge&logo=google-chrome&logoColor=white)](https://anandjatothu.me)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:anand.jatothu.27@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ANAND-JATOTHU)
+
+</div>
+
+---
+
+### 👋 About Me
+
+I am a third-year **B.Tech Information Technology student** at **Teegala Krishna Reddy Engineering College (TKREC)** in Hyderabad. I have a strong interest in **Full-Stack Web Development**, **Python backend engineering**, and **practical Artificial Intelligence**.
+
+I enjoy taking an idea, exploring how it operates under the hood, and building it into a reliable, working application. Rather than claiming expertise across everything, I believe in staying grounded, being open to feedback, and learning continuously by writing code every day.
+
+- 🌱 **Current Focus:** Deepening my understanding of Data Structures & Algorithms, modern web frameworks, and local AI toolchains.
+- 💼 **Internship Experience:** Former Python Development Intern at **Kinetrexa Software** (building role-based portals & APIs) and **ServiceNow Virtual Intern**.
+- 🎯 **What I'm Looking For:** Software Development Engineer (SDE) internships where I can contribute to real-world codebases, learn from experienced mentors, and add value.
+
 ---
 
 <div align="center">
@@ -585,6 +606,17 @@ README = """<!-- ANAND JATOTHU — GitHub Profile README -->
 ![About Life](assets/about-life.svg)
 
 </div>
+
+---
+
+## 🚀 Featured Projects
+
+| Project | Description | Stack | Links |
+|:---|:---|:---|:---:|
+| **[Academia (Kinetrexa)](https://github.com/ANAND-JATOTHU)** | Role-based student & attendance management system built during my internship. Features multi-tier access (Admin, Teacher, Student), automated tracking, CSV data pipelines, and dynamic vector PDF ID generation. | Django · Tailwind CSS · SQLite / PostgreSQL | [GitHub](https://github.com/ANAND-JATOTHU) |
+| **[StuLink](https://github.com/ANAND-JATOTHU/StuLink)** | Safe social learning and skill-sharing platform for students. Designed with Supabase Row Level Security (RLS), parent access portal, and an automated text moderation engine. | Next.js · TypeScript · React 19 · Supabase · Cloudinary | [▶ Demo](https://stu-link-web.vercel.app/) · [GitHub](https://github.com/ANAND-JATOTHU/StuLink) |
+| **[SRUTHI](https://github.com/ANAND-JATOTHU)** | Fully offline conversational AI assistant powered by a local quantized Mistral-7B model, Faster-Whisper for low-latency speech-to-text, and a custom PyQt6 GUI. | Python · Mistral LLM · Faster-Whisper · PyQt6 | [GitHub](https://github.com/ANAND-JATOTHU) |
+| **[Transvara](https://github.com/ANAND-JATOTHU)** | Fast and secure web-based peer-to-peer file transfer application focused on simplicity and client-side encryption. | Next.js · Node.js · WebRTC | [▶ Demo](https://transfer-app-frontend.vercel.app/) · [GitHub](https://github.com/ANAND-JATOTHU) |
 
 ---
 
@@ -596,18 +628,15 @@ README = """<!-- ANAND JATOTHU — GitHub Profile README -->
 
 ---
 
-## 🚀 Featured Projects
+## 💻 GitHub Works & Open Source Journey
 
-| Project | Description | Stack | Live |
-|---------|-------------|-------|------|
-| **[StuLink](https://github.com/ANAND-JATOTHU/StuLink)** | Safe social learning & skill-sharing platform with RLS, parent portal, text-moderation engine (↓95% unsafe msgs) | Next.js · TS · React 19 · Supabase · Cloudinary | [▶ Demo](https://stu-link-web.vercel.app/) |
-| **[Foodify](https://github.com/ANAND-JATOTHU)** | Dual-purpose food delivery & donation platform with map-based logistics (↓40% carbon footprint) | Django · Python · Stripe · Geoapify | — |
-| **[SRUTHI](https://github.com/ANAND-JATOTHU)** | Fully offline conversational AI assistant — Mistral-7B + Faster-Whisper + PyQt6 GPU GUI (83% task completion) | Python · Mistral LLM · CustomTkinter | — |
-| **[Transvara](https://github.com/ANAND-JATOTHU)** | Secure & fast file transfer web app | Next.js · Node.js | [▶ Demo](https://transfer-app-frontend.vercel.app/) |
+To me, GitHub is my digital workshop. Every commit, issue, and repository represents a step forward in my engineering journey:
 
----
+- **Building by Doing:** I learn best by getting my hands dirty with code—whether architecting multi-role web apps, experimenting with offline AI models, or building utility tools.
+- **Code Quality & Best Practices:** I strive to write readable, modular code with proper type definitions, role-based security, and clean documentation.
+- **Workflow Automation:** I enjoy setting up automated GitHub Actions workflows (CI/CD pipelines, image compositing, and scheduled scripts) to keep projects healthy and maintainable.
 
-## 🐟 Git Koi Pond
+### 🐟 The Git Koi Pond
 
 <div align="center">
 
@@ -618,13 +647,11 @@ README = """<!-- ANAND JATOTHU — GitHub Profile README -->
 -->
 <img src="koi/koi-zen-pond.gif" width="280" alt="Anand's Git Koi Pond" />
 
-<p><em>An animated pixel-art koi that grows with contributions, maps colors to top languages, and swims according to recent activity. Powered by <a href="https://github.com/yalongwastaken/git-koi">git-koi</a>.</em></p>
+<p><em>An animated pixel-art koi that grows with cumulative contributions, maps colors to top languages, and swims according to daily commit activity. Powered by <a href="https://github.com/yalongwastaken/git-koi">git-koi</a>.</em></p>
 
 </div>
 
----
-
-## 🐍 Contribution Graph Snake
+### 🐍 Contribution Graph Snake
 
 <div align="center">
 
@@ -638,7 +665,19 @@ README = """<!-- ANAND JATOTHU — GitHub Profile README -->
 
 ---
 
-## 📊 GitHub Stats
+## 💼 Connect on LinkedIn
+
+I regularly share what I'm learning, project build breakdowns, and software discoveries on LinkedIn. Whether you're a recruiter seeking an enthusiastic intern, a fellow developer, or an engineer willing to share advice, I would love to connect!
+
+<div align="center">
+
+[![Connect on LinkedIn](https://img.shields.io/badge/Connect%20on%20LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/anandjatothu)
+
+</div>
+
+---
+
+## 📊 GitHub Stats & Consistency
 
 <div align="center">
 
@@ -653,13 +692,7 @@ README = """<!-- ANAND JATOTHU — GitHub Profile README -->
 
 <div align="center">
 
-![Connect](assets/connect.svg)
-
-</div>
-
-<div align="center">
-
-**[🌐 Portfolio](https://anandjatothu.me)** &nbsp;·&nbsp; **[💼 LinkedIn](https://linkedin.com/in/anandjatothu)** &nbsp;·&nbsp; **[⚫ GitHub](https://github.com/ANAND-JATOTHU)** &nbsp;·&nbsp; **[✉ Email](mailto:anand.jatothu.27@gmail.com)**
+![ID Dashboard](assets/id-dashboard.svg)
 
 </div>
 
@@ -667,7 +700,7 @@ README = """<!-- ANAND JATOTHU — GitHub Profile README -->
 
 <div align="center">
 
-![ID Dashboard](assets/id-dashboard.svg)
+![Connect](assets/connect.svg)
 
 </div>
 

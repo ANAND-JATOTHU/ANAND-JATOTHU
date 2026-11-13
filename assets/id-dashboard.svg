@@ -54,7 +54,7 @@
   <rect x="36" y="56" width="60" height="2" fill="#247bff" rx="1"/>
 
   <text x="36" y="96" font-size="13" fill="#8892a4">Role</text>
-  <text x="36" y="114" font-size="16" font-weight="700" fill="#e8edf5">Full-Stack Developer · AI Engineer</text>
+  <text x="36" y="114" font-size="16" font-weight="700" fill="#e8edf5">Full-Stack Software Engineer &amp; AI Builder</text>
 
   <text x="36" y="148" font-size="13" fill="#8892a4">University</text>
   <text x="36" y="166" font-size="15" fill="#e8edf5">TKREC — B.Tech IT (2023–2027)</text>
@@ -63,17 +63,17 @@
   <text x="36" y="218" font-size="15" fill="#e8edf5">Hyderabad, India</text>
 
   <text x="36" y="252" font-size="13" fill="#8892a4">Specialisation</text>
-  <text x="36" y="270" font-size="15" fill="#e8edf5">Next.js · Supabase · Python · AI/ML</text>
+  <text x="36" y="270" font-size="15" fill="#e8edf5">Python · Next.js · Django · Practical AI</text>
 
   <text x="36" y="304" font-size="13" fill="#8892a4">Status</text>
   <rect x="36" y="312" width="12" height="12" rx="6" fill="#22c55e">
     <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
   </rect>
-  <text x="54" y="323" font-size="14" fill="#22c55e" font-weight="600">Available for Internship</text>
+  <text x="54" y="323" font-size="14" fill="#22c55e" font-weight="600">Open to SDE Internships &amp; Learning</text>
 
-  <text x="36" y="360" font-size="13" fill="#8892a4">Certifications</text>
-  <text x="36" y="378" font-size="11.5" fill="#e8edf5">AWS Developer Associate (Infosys)</text>
-  <text x="36" y="394" font-size="11.5" fill="#e8edf5">ServiceNow CIS-DF · NPTEL ML · Ethical Hacking</text>
+  <text x="36" y="360" font-size="13" fill="#8892a4">Experience &amp; Learning</text>
+  <text x="36" y="378" font-size="11.5" fill="#e8edf5">Python Dev Intern @ Kinetrexa · ServiceNow Virtual Intern</text>
+  <text x="36" y="394" font-size="11.5" fill="#e8edf5">Full Stack Web with AI Tools (Edunet / TASKAI)</text>
 
   <!-- LANYARD CARD -->
   <g transform="translate(590,0)">
@@ -107,7 +107,7 @@
       <rect x="655" y="130" width="130" height="130" rx="10" fill="none" stroke="white" stroke-width="1.5" opacity="0.3"/>
 
       <text x="720" y="278" font-size="16" font-weight="900" fill="#e8edf5" text-anchor="middle">ANAND JATOTHU</text>
-      <text x="720" y="296" font-size="11" fill="#8892a4" text-anchor="middle">Full-Stack · AI/ML · Cloud</text>
+      <text x="720" y="296" font-size="11" fill="#8892a4" text-anchor="middle">Full-Stack · AI Builder</text>
 
       <line x1="620" y1="306" x2="820" y2="306" stroke="#1a2540" stroke-width="1"/>
       <rect x="630" y="314" width="180" height="40" fill="url(#barcode)" opacity="0.85"/>
