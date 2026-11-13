@@ -607,6 +607,18 @@ README = """<!-- ANAND JATOTHU — GitHub Profile README -->
 
 ---
 
+## 🐟 Git Koi Pond
+
+<div align="center">
+
+<img src="koi/koi.gif" width="256" alt="Anand's Git Koi" />
+
+<p><em>An animated pixel-art koi that grows with contributions, maps colors to top languages, and swims according to recent activity. Powered by <a href="https://github.com/yalongwastaken/git-koi">git-koi</a>.</em></p>
+
+</div>
+
+---
+
 ## 📊 GitHub Stats
 
 <div align="center">
