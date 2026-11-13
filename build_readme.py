@@ -611,9 +611,28 @@ README = """<!-- ANAND JATOTHU — GitHub Profile README -->
 
 <div align="center">
 
-<img src="koi/koi.gif" width="256" alt="Anand's Git Koi" />
+<!-- Koi Background Options:
+     - koi/koi-zen-pond.gif    (Deep Zen Water Pond with ripples & lily pads - ACTIVE)
+     - koi/koi-tokyonight.gif  (TokyoNight Card with neon borders)
+     - koi/koi.gif             (Transparent / clean)
+-->
+<img src="koi/koi-zen-pond.gif" width="280" alt="Anand's Git Koi Pond" />
 
 <p><em>An animated pixel-art koi that grows with contributions, maps colors to top languages, and swims according to recent activity. Powered by <a href="https://github.com/yalongwastaken/git-koi">git-koi</a>.</em></p>
+
+</div>
+
+---
+
+## 🐍 Contribution Graph Snake
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/github-contribution-grid-snake.svg">
+  <img alt="GitHub Contribution Snake" src="assets/github-contribution-grid-snake-dark.svg" />
+</picture>
 
 </div>
 
