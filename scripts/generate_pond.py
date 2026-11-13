@@ -78,6 +78,21 @@ def create_tokyonight_card(size=(512, 512)):
 
     return bg
 
+def create_ripple_pond(size=(512, 512)):
+    bg = Image.new("RGBA", size, (0, 0, 0, 0))
+    draw = ImageDraw.Draw(bg)
+    cx, cy = size[0] // 2, size[1] // 2
+
+    for radius in range(230, 0, -2):
+        factor = radius / 230
+        alpha = int(140 * (1 - factor**2))
+        draw.ellipse([cx - radius, cy - radius, cx + radius, cy + radius], fill=(15, 25, 45, alpha))
+
+    for rip_r in [50, 100, 150, 200]:
+        draw.ellipse([cx - rip_r, cy - rip_r, cx + rip_r, cy + rip_r], outline=(56, 189, 248, 35), width=2)
+
+    return bg
+
 def composite_gif(bg_img, in_path, out_path):
     if not os.path.exists(in_path):
         print(f"Skipping {out_path}: {in_path} does not exist.")
@@ -112,6 +127,10 @@ def main():
     print("Compositing TokyoNight Card...")
     tn_bg = create_tokyonight_card()
     composite_gif(tn_bg, INPUT_GIF, os.path.join(KOI_DIR, "koi-tokyonight.gif"))
+
+    print("Compositing Minimal Ripple Pond...")
+    rip_bg = create_ripple_pond()
+    composite_gif(rip_bg, INPUT_GIF, os.path.join(KOI_DIR, "koi-ripple.gif"))
     print("All pond variants generated successfully!")
 
 if __name__ == "__main__":

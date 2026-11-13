@@ -639,12 +639,13 @@ To me, GitHub is my digital workshop. Every commit, issue, and repository repres
 
 <div align="center">
 
-<!-- Koi Background Options:
-     - koi/koi-tokyonight.gif  (TokyoNight Card with neon borders - ACTIVE)
-     - koi/koi-zen-pond.gif    (Deep Zen Water Pond with ripples & lily pads)
-     - koi/koi.gif             (Transparent / clean)
+<!-- Koi Theme Options:
+     - koi/koi.gif             (Clean Transparent / Native floating - ACTIVE)
+     - koi/koi-ripple.gif      (Minimalist circular water ripples)
+     - koi/koi-tokyonight.gif  (TokyoNight Card with neon borders)
+     - koi/koi-zen-pond.gif    (Deep Zen Water Pond with lily pads)
 -->
-<img src="koi/koi-tokyonight.gif" width="280" alt="Anand's Git Koi Pond" />
+<img src="koi/koi.gif" width="256" alt="Anand's Git Koi" />
 
 <p><em>An animated pixel-art koi that grows with cumulative contributions, maps colors to top languages, and swims according to daily commit activity. Powered by <a href="https://github.com/yalongwastaken/git-koi">git-koi</a>.</em></p>
 
